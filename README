@@ -1,0 +1,24 @@
+# 📊 Sales Analysis Dashboard
+
+## Overview
+This Power BI dashboard analyzes sales data across products, regions, and time. It helps visualize sales trends, performance by category, and top-performing regions and products.
+
+## 🚀 Features
+- KPIs: Total Sales, Order Count, Average Order Value
+- Monthly Sales Trend (Line Chart)
+- Sales by Region (Bar Chart)
+- Sales by Product Category (Donut Chart)
+- Top 5 Products by Sales (Bar)
+- Interactive Filters: Date, Region, Category
+
+## 🔧 Tools Used
+- Microsoft Power BI
+- DAX
+- Power Query (for basic data cleaning)
+
+---
+
+## 📈 Insights
+- Highest sales occurred in February due to high laptop purchases.
+- Phones are the top-selling category.
+- North region performs consistently well across months
