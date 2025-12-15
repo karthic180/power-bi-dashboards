@@ -1,0 +1,49 @@
+# Workforce Utilisation & Cost Report
+
+This repository contains a dataset and visualizations summarizing employee utilisation, billable vs non‑billable hours, and associated costs across multiple countries and resource groups.
+
+## Overview
+- **Utilisation %**: Average utilisation across employees is **55.83%**.
+- **Total Hours**: 03:15 (aggregated across sample data).
+- **Total Cost**: $1,290.97.
+- **Billable Hours**: 04:45 recorded in the sample.
+
+The report includes breakdowns by:
+- **Employee**: Hours worked, cost, billable vs non‑billable.
+- **Country**: GER, MEX, PRC, USA, CAN, EU, Asia, AU, NZ.
+- **Resource Group**: Build, Design, Tech, PM, Concept, Overheads.
+- **Projects**: Costs distributed across multiple project IDs.
+
+##  Contents
+
+- **Employee Table**: Detailed hours and costs per employee.
+- **Utilisation Charts**: Time‑based utilisation % by timesheet date.
+- **Cost Analysis**:
+  - By Project
+  - By Country
+  - By Resource Group
+- **Billable vs Non‑Billable Counts**: Distribution across resource groups.
+
+##  Usage
+
+This dataset can be used to:
+- Track workforce utilisation trends.
+- Compare billable vs non‑billable efficiency.
+- Identify cost drivers by country or resource group.
+- Support project cost allocation and forecasting.
+
+##  How to Extend
+
+- Add new timesheet data to expand utilisation analysis.
+- Integrate with BI tools (Power BI, Tableau) for interactive dashboards.
+- Use scripts to calculate KPIs like **average hourly cost per country** or **billable ratio per resource group**.
+
+##  Notes
+
+- Data is anonymized (employees listed as `Employee-XXX`).
+- Costs are sample values in USD.
+- Visualizations included are static snapshots; interactive slicers are referenced but not functional in this markdown.
+
+---
+
+© 2025 Microsoft Corporation, TomTom, OpenStreetMap (map data references in report)
