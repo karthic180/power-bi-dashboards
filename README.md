@@ -5,17 +5,20 @@ A curated collection of interactive dashboards built using Microsoft Power BI. E
 **Airlines Dashboard**
 
   https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf  
+  
   This dashboard analyzes long‑term aviation trends, including total passengers, freight volume, and aircraft movements across multiple decades. It highlights year‑over‑year growth, operational patterns, and historical peaks. Designed to support airport operations, aviation planning, and traffic forecasting.
 
 **Golf Dashboard**
 
   https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf  
+  
   A performance‑focused dashboard built around golf player statistics. It includes scoring trends, player comparisons, course difficulty metrics, and round‑by‑round breakdowns. Ideal for analyzing player strengths, identifying improvement areas, and visualizing competitive performance.
 
 **Lego sales and ultisation Mock Dashboard**
-
   https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf  
+  
   A mock retail dashboard themed around LEGO products. It showcases sales performance, product category insights, regional breakdowns, and profitability metrics. Useful for demonstrating retail analytics, inventory insights, and customer purchasing patterns.
+  
 **Lego Sets and Themes Mock Dashboard**
 https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf
 An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It highlights historical releases, theme popularity, and set complexity trends. Key visuals include total sets by year, average parts per set, and theme distribution. Designed to showcase LEGO’s evolution over decades, support retail and fan analytics, and demonstrate BI techniques such as data modeling, DAX measures, and interactive filtering.
