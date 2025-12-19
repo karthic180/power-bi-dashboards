@@ -12,7 +12,7 @@ A curated collection of interactive dashboards built using Microsoft Power BI. E
   https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf  
   A performance‑focused dashboard built around golf player statistics. It includes scoring trends, player comparisons, course difficulty metrics, and round‑by‑round breakdowns. Ideal for analyzing player strengths, identifying improvement areas, and visualizing competitive performance.
 
-**Lego Mock Dashboard**
+**Lego sales and ultisation Mock Dashboard**
 
   https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf  
   A mock retail dashboard themed around LEGO products. It showcases sales performance, product category insights, regional breakdowns, and profitability metrics. Useful for demonstrating retail analytics, inventory insights, and customer purchasing patterns.
@@ -30,11 +30,14 @@ An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It hig
 
   https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md  
 
-**Lego Dashboard ReadMe**
+**Lego Sales and Utilisation Dashboard ReadMe**
 
   https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md  
-** Lego Dashboard Sets and Themes ReadMe**
-  https://github.com/karthic180/power-bi dashboards/blob/93f4255f9bad17bda596a6e4cb73c44899efdd22/Lego_Sets_Themes_dash_ReadMe
+  
+**Lego Set and Themes Dashboard ReadMe**
+
+https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md
+  
 
 **Tools Used**
 - Power BI Desktop  
