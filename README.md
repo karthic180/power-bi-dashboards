@@ -16,6 +16,9 @@ A curated collection of interactive dashboards built using Microsoft Power BI. E
 
   https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf  
   A mock retail dashboard themed around LEGO products. It showcases sales performance, product category insights, regional breakdowns, and profitability metrics. Useful for demonstrating retail analytics, inventory insights, and customer purchasing patterns.
+**Lego Sets and Themes Mock Dashboard**
+https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf
+An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It highlights historical releases, theme popularity, and set complexity trends. Key visuals include total sets by year, average parts per set, and theme distribution. Designed to showcase LEGO’s evolution over decades, support retail and fan analytics, and demonstrate BI techniques such as data modeling, DAX measures, and interactive filtering.
 
 **ReadMes**
 
@@ -30,6 +33,8 @@ A curated collection of interactive dashboards built using Microsoft Power BI. E
 **Lego Dashboard ReadMe**
 
   https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md  
+** Lego Dashboard Sets and Themes ReadMe**
+  https://github.com/karthic180/power-bi dashboards/blob/93f4255f9bad17bda596a6e4cb73c44899efdd22/Lego_Sets_Themes_dash_ReadMe
 
 **Tools Used**
 - Power BI Desktop  
