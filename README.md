@@ -23,6 +23,11 @@ A curated collection of interactive dashboards built using Microsoft Power BI. E
 https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf
 An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It highlights historical releases, theme popularity, and set complexity trends. Key visuals include total sets by year, average parts per set, and theme distribution. Designed to showcase LEGO’s evolution over decades, support retail and fan analytics, and demonstrate BI techniques such as data modeling, DAX measures, and interactive filtering.
 
+**WorldCup  Mock Dashboard**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
+end‑to‑end analysis of the FIFA World Cup Match Insights dataset sourced from Kaggle. It includes data exploration, performance metrics, match statistics, and visual dashboards summarizing 90+ years of World Cup history.
+
+
 **ReadMes**
 
 **Airlines Dashboard ReadMe **
@@ -40,6 +45,10 @@ An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It hig
 **Lego Set and Themes Dashboard ReadMe**
 
 https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md
+
+**Worldcup Dashboard ReadMe**
+
+https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe
   
 
 **Tools Used**
