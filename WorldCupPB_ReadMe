@@ -71,3 +71,12 @@ Team Insights
 Goals & Outcomes Summary
 
 Stage‑wise Match Breakdown
+
+Tools & Technologies
+Python (Pandas, NumPy, Matplotlib, Seaborn)	for Data cleaning & analysis
+Power BI	for Interactive dashboards
+Jupyter Notebook	for Exploratory analysis
+Kaggle Dataset as	Data source
+
+License
+This project is licensed under the MIT License
