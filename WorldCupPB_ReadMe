@@ -1,0 +1,23 @@
+FIFA World Cup Match Insights
+Comprehensive Analysis of FIFA World Cup Matches (1930–2022)
+
+This repository contains an end‑to‑end analysis of the FIFA World Cup Match Insights dataset sourced from Kaggle. It includes data exploration, performance metrics, match statistics, and visual dashboards summarizing 90+ years of World Cup history.
+
+Dataset Source:
+https://www.kaggle.com/datasets/saadaliyaseen/fifa-world-cup-match-insights
+Project Overview
+This project analyzes historical FIFA World Cup match data to uncover trends in:
+
+Total goals scored
+
+Match outcomes (home wins, away wins, draws)
+
+Goal differences
+
+Win percentages
+
+Team‑wise performance
+
+Stage‑wise match statistics
+
+The analysis is supported by visual dashboards similar to the ones shown in the included PDF (Power BI report).
