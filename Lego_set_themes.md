@@ -9,8 +9,6 @@
   - `num_parts` → Number of parts in the set  
   - `themes.csv` → Theme metadata  
 
-## Dashboard
-https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf
 
 ## Objectives
 - Track LEGO set releases over time  
