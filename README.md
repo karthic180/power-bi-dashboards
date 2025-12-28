@@ -100,6 +100,20 @@ An end-to-end analysis of 90+ years of FIFA World Cup data, including match stat
 
 ---
 
+
+###  UK Broadband Performance Dashboard
+
+ **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
+
+ **ReadMe:**
+https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md
+
+**Overview:**
+This dashboard provides a structured view of UK broadband performance using mock data designed to resemble real Ofcom broadband reporting. It highlights how broadband providers and UK regions compare across key performance indicators such as download speed, upload speed, rural vs. urban performance, and average monthly cost.
+
+---
+
 ## 🛠️ Tools & Technologies
 
 * **Power BI Desktop**
