@@ -14,12 +14,12 @@ This repository showcases real-world analytical use cases across **finance, spor
 
 ##  Dashboards
 
-### 💳 Loan Analytics Dashboard (Mock)
+###  Loan Analytics Dashboard (Mock)
 
-📄 **Dashboard:**
+ **Dashboard:**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
 
-📘 **ReadMe:**
+ **ReadMe:**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
 
 **Overview:**
@@ -40,13 +40,13 @@ A comprehensive financial analytics dashboard built using the **Kaggle Loan Defa
 
 ---
 
-### ⛳ Golf Performance Dashboard
+###  Golf Performance Dashboard
 
-📄 **Dashboard:**
-[https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf](https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf)
+ **Dashboard:**
+https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf
 
-📘 **ReadMe:**
-[https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md](https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md)
+ **ReadMe:**
+https://github.com/karthic180/power-bi-dashboards/blob/main/Golf_Mock_Dashboard_README.md
 
 **Overview:**
 A performance-driven sports analytics dashboard centered on golf player statistics and competitive trends.
@@ -62,12 +62,12 @@ A performance-driven sports analytics dashboard centered on golf player statisti
 
 ---
 
-### ✈️ Airlines Dashboard
+###  Airlines Dashboard
 
-📄 **Dashboard:**
+ **Dashboard:**
 [https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf](https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf)
 
-📘 **ReadMe:**
+ **ReadMe:**
 [https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock](https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock)
 
 **Overview:**
@@ -75,12 +75,12 @@ Analyzes long-term aviation trends including passengers, freight, aircraft movem
 
 ---
 
-### 🧱 LEGO Sales & Utilisation Dashboard (Mock)
+###  LEGO Sales & Utilisation Dashboard (Mock)
 
-📄 **Dashboard:**
+ **Dashboard:**
 [https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf](https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf)
 
-📘 **ReadMe:**
+ **ReadMe:**
 [https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md](https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md)
 
 **Overview:**
@@ -88,12 +88,12 @@ A mock retail analytics dashboard showcasing LEGO sales performance, product cat
 
 ---
 
-### 🧩 LEGO Sets & Themes Dashboard
+###  LEGO Sets & Themes Dashboard
 
-📄 **Dashboard:**
+ **Dashboard:**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
 
-📘 **ReadMe:**
+ **ReadMe:**
 [https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
 
 **Overview:**
@@ -101,13 +101,13 @@ Explores LEGO’s historical evolution using the LEGO Sets & Themes Kaggle datas
 
 ---
 
-### ⚽ FIFA World Cup Dashboard (Mock)
+###  Football Global Cup Dashboard (Mock)
 
-📄 **Dashboard:**
+ **Dashboard:**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
 
-📘 **ReadMe:**
-[https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md)
+ **ReadMe:**
+https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup_README.md
 
 **Overview:**
 An end-to-end analysis of 90+ years of FIFA World Cup data, including match statistics, team performance, and historical trends.
