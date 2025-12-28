@@ -68,7 +68,7 @@ A performance-driven sports analytics dashboard centered on golf player statisti
 https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf
 
  **ReadMe:**
-[https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock](https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock)
+https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md
 
 **Overview:**
 Analyzes long-term aviation trends including passengers, freight, aircraft movements, and year-over-year growth across multiple decades.
