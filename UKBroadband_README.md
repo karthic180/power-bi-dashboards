@@ -90,9 +90,9 @@ Combined charts showing:
 
 ---
 
-# **Recommended Real Dataset**
+# **Datasets**
 
-### **UK Fixed-Line Broadband Performance – Ofcom**  
+### **Ofcom-UK Fixed-Line Broadband Performance**  
 https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance
 
 This dataset includes:
@@ -103,7 +103,7 @@ This dataset includes:
 
 ---
 
-#  **Kaggle Dataset (Closest Alternative)**  
+#  **Kaggle Dataset**  
 There is no Kaggle dataset that includes cost + rural % + provider + region together, but the closest available is:
 
 ### **Ofcom UK Broadband Speeds (2016)**  
