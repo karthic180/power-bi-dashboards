@@ -74,20 +74,6 @@ https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md
 Analyzes long-term aviation trends including passengers, freight, aircraft movements, and year-over-year growth across multiple decades.
 
 ---
-
-###  LEGO Sales & Utilisation Dashboard (Mock)
-
- **Dashboard:**
-[https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf](https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf)
-
- **ReadMe:**
-[https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md](https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md)
-
-**Overview:**
-A mock retail analytics dashboard showcasing LEGO sales performance, product categories, regional trends, and profitability.
-
----
-
 ###  LEGO Sets & Themes Dashboard
 
  **Dashboard:**
