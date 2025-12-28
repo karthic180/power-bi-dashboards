@@ -48,7 +48,11 @@ https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9
 
 **Worldcup Dashboard ReadMe**
 
-https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe
+https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md
+
+**Loan Dashboard ReadMe**
+
+https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md
   
 
 **Tools Used**
