@@ -27,6 +27,17 @@ An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It hig
 [https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
 end‑to‑end analysis of the FIFA World Cup Match Insights dataset sourced from Kaggle. It includes data exploration, performance metrics, match statistics, and visual dashboards summarizing 90+ years of World Cup history.
 
+**Loan  Mock Dashboard**
+(https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
+A comprehensive loan analytics dashboard built using the Kaggle Loan Default dataset. It highlights borrower risk, loan terms, default rates, and segment analysis. Key insights include:
+
+Default vs Non Default by borrower characteristics
+
+Credit Score, Income, Employment, and Loan Term risk analysis
+
+Interactive slicers for Gender, Marital Status, and Loan Purpose
+
+KPI overview with Total Loans, Total Defaults, and Default Rate (%)
 
 **ReadMes**
 
