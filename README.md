@@ -1,75 +1,125 @@
-A curated collection of interactive dashboards built using Microsoft Power BI. Each project demonstrates end‑to‑end BI development, including data preparation, modeling, DAX calculations, and the creation of insightful visual reports.
+#  Power BI Dashboards Portfolio
 
-**Dashboards**
+A curated collection of **interactive dashboards built using Microsoft Power BI**.
+Each project demonstrates **end-to-end Business Intelligence development**, including:
 
-**Airlines Dashboard**
+* Data preparation & transformation
+* Data modeling
+* DAX calculations
+* Insightful, interactive visual reporting
 
-  https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf  
-  
-  This dashboard analyzes long‑term aviation trends, including total passengers, freight volume, and aircraft movements across multiple decades. It highlights year‑over‑year growth, operational patterns, and historical peaks. Designed to support airport operations, aviation planning, and traffic forecasting.
+This repository showcases real-world analytical use cases across **finance, sports, aviation, retail, and global events**.
 
-**Golf Dashboard**
+---
 
-  https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf  
-  
-  A performance‑focused dashboard built around golf player statistics. It includes scoring trends, player comparisons, course difficulty metrics, and round‑by‑round breakdowns. Ideal for analyzing player strengths, identifying improvement areas, and visualizing competitive performance.
+##  Dashboards
 
-**Lego sales and ultisation Mock Dashboard**
-  https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf  
-  
-  A mock retail dashboard themed around LEGO products. It showcases sales performance, product category insights, regional breakdowns, and profitability metrics. Useful for demonstrating retail analytics, inventory insights, and customer purchasing patterns.
-  
-**Lego Sets and Themes Mock Dashboard**
-https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf
-An analytical dashboard built from the LEGO Sets & Themes Kaggle dataset. It highlights historical releases, theme popularity, and set complexity trends. Key visuals include total sets by year, average parts per set, and theme distribution. Designed to showcase LEGO’s evolution over decades, support retail and fan analytics, and demonstrate BI techniques such as data modeling, DAX measures, and interactive filtering.
+### 💳 Loan Analytics Dashboard (Mock)
 
-**WorldCup  Mock Dashboard**
-[https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
-end‑to‑end analysis of the FIFA World Cup Match Insights dataset sourced from Kaggle. It includes data exploration, performance metrics, match statistics, and visual dashboards summarizing 90+ years of World Cup history.
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
 
-**Loan  Mock Dashboard**
-(https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
-A comprehensive loan analytics dashboard built using the Kaggle Loan Default dataset. It highlights borrower risk, loan terms, default rates, and segment analysis. Key insights include:
+📘 **ReadMe:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
 
-Default vs Non Default by borrower characteristics
+**Overview:**
+A comprehensive financial analytics dashboard built using the **Kaggle Loan Default dataset**. It focuses on borrower risk assessment and default behavior through interactive KPIs and deep-dive visuals.
 
-Credit Score, Income, Employment, and Loan Term risk analysis
+**Key Insights & Features:**
 
-Interactive slicers for Gender, Marital Status, and Loan Purpose
+* Default vs Non-Default analysis by borrower demographics
+* Credit Score, Income, Employment Length & Loan Term risk breakdown
+* Interactive slicers for Gender, Marital Status, and Loan Purpose
+* KPI summary including:
 
-KPI overview with Total Loans, Total Defaults, and Default Rate (%)
+  * Total Loans
+  * Total Defaults
+  * Default Rate (%)
 
-**ReadMes**
+**Use Cases:** Credit risk analysis, underwriting insights, portfolio monitoring.
 
-**Airlines Dashboard ReadMe **
+---
 
-  https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock  
+### ⛳ Golf Performance Dashboard
 
-**Golf Dashboard ReadMe**
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf](https://github.com/karthic180/power-bi-dashboards/blob/d9acdc4325dcb88f604e6e5b9efe81b058b4200a/golf%20dashboard%20snap.pdf)
 
-  https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md  
+📘 **ReadMe:**
+[https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md](https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md)
 
-**Lego Sales and Utilisation Dashboard ReadMe**
+**Overview:**
+A performance-driven sports analytics dashboard centered on golf player statistics and competitive trends.
 
-  https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md  
-  
-**Lego Set and Themes Dashboard ReadMe**
+**Key Insights & Features:**
 
-https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md
+* Player scoring trends over time
+* Player-to-player performance comparisons
+* Course difficulty and scoring impact
+* Round-by-round performance breakdowns
 
-**Worldcup Dashboard ReadMe**
+**Use Cases:** Player performance evaluation, coaching insights, competitive analysis.
 
-https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md
+---
 
-**Loan Dashboard ReadMe**
+### ✈️ Airlines Dashboard
 
-https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md
-  
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf](https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf)
 
-**Tools Used**
-- Power BI Desktop  
-- Power Query (M Language)  
-- DAX Measures  
-- Microsoft Excel  
-- Power Query in Excel  
+📘 **ReadMe:**
+[https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock](https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock)
 
+**Overview:**
+Analyzes long-term aviation trends including passengers, freight, aircraft movements, and year-over-year growth across multiple decades.
+
+---
+
+### 🧱 LEGO Sales & Utilisation Dashboard (Mock)
+
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf](https://github.com/karthic180/power-bi-dashboards/blob/88715d557da105e3fe03be84f9dbd3d4375aa7e8/LEOEOEG%20BI.pdf)
+
+📘 **ReadMe:**
+[https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md](https://github.com/karthic180/PBI-Dashboard-GolfMock/blob/0acd0a40f522a8ce3afc4f0d7e7232144ea8da0e/README.md)
+
+**Overview:**
+A mock retail analytics dashboard showcasing LEGO sales performance, product categories, regional trends, and profitability.
+
+---
+
+### 🧩 LEGO Sets & Themes Dashboard
+
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
+
+📘 **ReadMe:**
+[https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
+
+**Overview:**
+Explores LEGO’s historical evolution using the LEGO Sets & Themes Kaggle dataset, highlighting release trends, theme popularity, and set complexity.
+
+---
+
+### ⚽ FIFA World Cup Dashboard (Mock)
+
+📄 **Dashboard:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
+
+📘 **ReadMe:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/WorldCupPB_ReadMe.md)
+
+**Overview:**
+An end-to-end analysis of 90+ years of FIFA World Cup data, including match statistics, team performance, and historical trends.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Power BI Desktop**
+* **Power Query (M Language)**
+* **DAX Measures**
+* **Microsoft Excel**
+* **Power Query in Excel**
+
+---
