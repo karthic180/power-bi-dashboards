@@ -1,98 +1,74 @@
-Football World Cup Analysis (1930–2022)
+##  Project: Football World Cup Analysis (1930–2022)
 
-View Dashboard PDF
+###  Overview
 
-This repository contains an end-to-end analysis of the FIFA World Cup Match Insights dataset (1930–2022). It includes data exploration, performance metrics, match statistics, and visual dashboards summarizing over 90 years of World Cup history.
+This project provides an **end-to-end analysis of historical FIFA World Cup matches** from 1930 to 2022. It focuses on uncovering trends in goals, match outcomes, team performance, and tournament stages using data visualization and dashboards.
 
-Dataset Source:
-FIFA World Cup Match Insights on Kaggle
+**Key Features:**
 
-Project Overview
+* Total goals scored and match statistics
+* Match outcome analysis (home wins, away wins, draws)
+* Goal differences
+* Win percentages per team
+* Stage-wise performance insights
+* Power BI dashboards for interactive exploration
 
-This project analyzes historical football World Cup match data to uncover trends in:
+**Dataset Source:** [FIFA World Cup Match Insights on Kaggle](https://www.kaggle.com/datasets)
 
-Total goals scored
+---
 
-Match outcomes (home wins, away wins, draws)
+###  Key Insights
 
-Goal differences
+| Metric                        | Value                           |
+| ----------------------------- | ------------------------------- |
+| Total Goals                   | 2,414                           |
+| Matches Analyzed              | 837                             |
+| Average Goals per Match       | 2.88                            |
+| Home Wins                     | 488                             |
+| Away Wins                     | 174                             |
+| Draws                         | 3910 (as per dashboard visuals) |
+| Total Goal Difference         | 672                             |
+| Team Win Percentage (average) | 79.09%                          |
 
-Win percentages
+---
 
-Team-wise performance
+### 🛠 What This Project Covers
 
-Stage-wise match statistics
+**1. Data Cleaning & Preparation**
 
-The analysis is supported by Power BI dashboards, visualizing key insights and trends.
+* Handling missing values
+* Standardizing team names
+* Converting match dates
+* Extracting tournament stages
 
-Key Insights
-Total Goals & Match Stats
+**2. Exploratory Data Analysis (EDA)**
 
-2,414 total goals scored
+* Distribution of goals
+* Match outcome patterns
+* Team-wise scoring trends
+* Stage-wise performance analysis
 
-837 matches analyzed
+**3. Visual Dashboards (Power BI)**
 
-2.88 average goals per match
+* Match Performance Overview
+* Team Insights
+* Goals & Outcomes Summary
+* Stage-wise Match Breakdown
 
-Match Outcomes
+---
 
-488 home wins
+### Tools & Technologies
 
-174 away wins
+* **Python**: Pandas, NumPy, Matplotlib, Seaborn
+* **Power BI**: Interactive dashboards
+* **Jupyter Notebook**: EDA and analysis
+* **Dataset**: FIFA World Cup Match Insights (Kaggle)
 
-3910 draws (as shown in dashboard visuals)
+---
 
-Additional Metrics
+###  License
 
-672 total goal difference (aggregate)
+This project is licensed under the **MIT License**.
 
-79.09% win percentage (team-level metric from dashboard)
 
-What This Project Covers
-Data Cleaning & Preparation
-
-Handling missing values
-
-Standardizing team names
-
-Converting match dates
-
-Extracting tournament stages
-
-Exploratory Data Analysis (EDA)
-
-Distribution of goals
-
-Match outcome patterns
-
-Team-wise scoring trends
-
-Stage-wise performance
-
-Visual Dashboards (Power BI)
-
-The included PDF contains dashboards such as:
-
-Match Performance Overview
-
-Team Insights
-
-Goals & Outcomes Summary
-
-Stage-wise Match Breakdown
-
-View Dashboard PDF
-
-Tools & Technologies
-
-Python (Pandas, NumPy, Matplotlib, Seaborn) – Data cleaning & analysis
-
-Power BI – Interactive dashboards
-
-Jupyter Notebook – Exploratory analysis
-
-Kaggle Dataset – FIFA World Cup Match Insights
-
-License
-
-This project is licensed under the MIT License.
+Do you want me to do that?
