@@ -1,97 +1,129 @@
-**Loan Default Dashboard – Power BI
-Project Overview**
 
-This project is a Power BI dashboard that analyzes loan defaults using a Kaggle dataset. The dashboard provides insights into:
+#  Loan Default Dashboard – Power BI
 
-Borrower characteristics (Credit Score, Income, Employment, Dependents, Education)
+##  Project Overview
 
-Loan terms and risk drivers (Loan Amount, Interest Rate, Loan Term, DTI)
+This project is an **interactive Power BI dashboard** that analyzes loan defaults using a Kaggle dataset.  
+The dashboard focuses on understanding **borrower risk**, **loan characteristics**, and **default behavior** through clear KPIs and segment-level analysis.
 
-Default vs Non Default analysis
+The goal is to **visualize trends, highlight key risk drivers, and provide actionable insights** for loan management, underwriting, and portfolio monitoring.
 
-Segment analysis across borrower and loan profiles
+---
 
-The goal is to visualize trends, highlight risk factors, and provide actionable insights for loan management.
+## 📊Key Analysis Areas
 
-**Dataset**
+- **Borrower characteristics**
+  - Credit Score
+  - Income
+  - Employment Type
+  - Number of Dependents
+  - Education Level
 
-Source: Kaggle – Loan Default Dataset
+- **Loan terms & risk drivers**
+  - Loan Amount
+  - Interest Rate
+  - Loan Term
+  - Debt-to-Income (DTI) Ratio
+
+- **Default vs Non-Default analysis**
+- **Segment-level risk comparison**
+
+---
+
+## Dataset
+
+**Source: Kaggle – Loan Default Dataset**  
 (https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download)
 
-**Columns include:**
+### Columns Included
 
-loan_id – Unique loan identifier
+- `loan_id` – Unique loan identifier  
+- `default` – Loan status (Default / Non Default)  
+- `CreditScore` – Borrower credit score  
+- `income` – Borrower income  
+- `employmenttype` – Employment type  
+- `numdependents` – Number of dependents  
+- `education` – Education level  
+- `loanamount` – Loan amount  
+- `interestrate` – Loan interest rate  
+- `loanterm` – Loan term in months  
+- `dtiratio` – Debt-to-Income ratio  
 
-default – Default status (Default / Non Default)
+> **Note:** The dataset does not include loan approval dates or geographic information.
 
-CreditScore – Borrower credit score
+---
 
-income – Borrower income
+##  Dashboard Pages & Features
 
-employmenttype – Employment type
+### Page 1: KPI Overview
+- Total Loans
+- Total Defaults
+- Total Non-Defaults
+- Default Rate (%)
+- Card visuals for quick executive summary
 
-numdependents – Number of dependents
+---
 
-education – Education level
+### Page 2: Borrower Profile & Risk
+- Default rate by:
+  - Credit Score Band
+  - Income Band
+  - Employment Type
+  - Number of Dependents
+  - Education Level
+- **Visuals:** Clustered & stacked column charts, bar charts
+- **Slicers:** Gender, Marital Status, Loan Purpose
 
-loanamount – Loan amount
+---
 
-interestrate – Loan interest rate
+### Page 3: Loan Terms & Risk Drivers
+- Default rate by:
+  - Loan Term
+  - Loan Amount
+  - Interest Rate
+  - DTI Ratio
+- **Visuals:** Clustered columns, scatter charts
+- **Slicers:** Loan Purpose, Employment Type, Credit Score Band
 
-loanterm – Loan term in months
+---
 
-dtiratio – Debt-to-Income ratio
+### Page 4: Borrower Segments & Default
+- Segment-wise default comparison by:
+  - Employment Type
+  - Education
+  - Marital Status
+  - Income Band
+- **Visuals:** Stacked & clustered column charts
 
-Note: The dataset does not contain loan approval dates or geographic fields.
+---
 
-**Features & Pages**
-Page 1: KPI Overview
+### Page 5: Default vs Non-Default Segments
+- Side-by-side comparison across:
+  - Credit Score
+  - Income
+  - Employment Type
+  - Loan Term
+- Optional donut chart for overall default proportion
+- Interactive slicers for dynamic filtering
 
-Total Loans, Total Defaults, Total Non Defaults
+---
 
-Default Rate (%)
+### Page 6: Risk Drivers Summary (Optional)
+- Scatter charts analyzing:
+  - Loan Amount vs Default
+  - Interest Rate vs Default
+  - DTI Ratio vs Default
+- Helps identify key financial risk drivers
 
-Card visuals for quick overview
+---
 
-Page 2: Borrower Profile & Risk
+##  Measures & Calculated Columns
 
-Default rate by Credit Score, Income Band, Employment Type, Dependents, Education
+### DAX Measures
 
-Visuals: Clustered/Stacked Column Charts, Bar Charts
-
-Slicers: Gender, Marital Status, Loan Purpose
-
-Page 3: Loan Terms & Risk Drivers
-
-Default rate by Loan Term, Loan Amount, Interest Rate, DTI
-
-Visuals: Clustered Columns, Scatter Charts
-
-Slicers: Loan Purpose, Employment Type, Credit Score Band
-
-Page 4: Borrower Segments & Default
-
-Segment-wise default comparison for Employment Type, Education, Marital Status, Income Band
-
-Visuals: Clustered/Stacked Column Charts
-
-Page 5: Default vs Non Default Segments
-
-Compare Default vs Non Default across Credit Score, Income, Employment, and Loan Term
-
-Optional donut chart for overall default proportion
-
-Slicers for dynamic filtering
-
-Page 6: Risk Drivers Summary (Optional)
-
-Scatter charts to analyze loan amount, interest rate, DTI vs Default
-
-Helps identify key risk drivers
-
-**Measures & Calculated Columns**
-Measures
-Total Loans = COUNT('loan_default'[loan_id])
+```DAX
+Total Loans =
+COUNT('loan_default'[loan_id])
 
 Total Defaults =
 CALCULATE(
@@ -105,9 +137,15 @@ CALCULATE(
     'loan_default'[default] = "Non Default"
 )
 
-Default Rate (%) = DIVIDE([Total Defaults],[Total Loans])
+Default Rate (%) =
+DIVIDE([Total Defaults], [Total Loans])
+````
 
-Calculated Columns
+---
+
+### Calculated Columns
+
+```DAX
 Credit Score Band =
 IF(
     ISBLANK('loan_default'[CreditScore]),
@@ -120,13 +158,17 @@ IF(
         "Excellent"
     )
 )
+```
 
+```DAX
 Income Band =
 IF(
     'loan_default'[income] < 30000, "Low Income",
     IF('loan_default'[income] < 70000, "Medium Income", "High Income")
 )
+```
 
+```DAX
 Loan Term Band =
 SWITCH(
     TRUE(),
@@ -134,40 +176,42 @@ SWITCH(
     'loan_default'[loanterm] <= 60, "37–60 Months",
     "> 60 Months"
 )
+```
 
-**Setup Instructions**
+---
 
-Download the loan_default CSV dataset from Kaggle.
+##  Setup Instructions
 
-Open Power BI Desktop.
+1. Download the **loan_default CSV dataset** from Kaggle
+2. Open **Power BI Desktop**
+3. Select **Get Data → Text/CSV** and import the dataset
+4. Create the calculated columns and DAX measures listed above
+5. Build visuals page by page as described
+6. Apply consistent formatting:
 
-Click Get Data → Text/CSV and import the dataset.
+   * **Red** = Default
+   * **Green** = Non-Default
+   * Data labels enabled
+   * Slicers for interactive filtering
 
-Create the calculated columns and measures as listed above.
+---
 
-Build visuals page by page as described.
+##  Key Dashboard Insights
 
-Apply consistent formatting:
+* Borrowers with **low credit scores** and **high DTI ratios** show higher default rates
+* **Income level, employment type, and loan term** significantly impact default behavior
+* Segment-based Default vs Non-Default analysis helps identify **high-risk borrower groups**
 
-Colors: Red = Default, Green = Non Default
+---
 
-Data labels ON
+##  Technologies Used
 
-Slicers for filtering
-**Dashboard Insights**
+* Power BI Desktop
+* DAX (Measures & Calculated Columns)
+* CSV dataset from Kaggle
 
-Borrowers with low credit scores or high DTI ratios have higher default rates.
+---
 
-Income level, employment type, and loan term significantly affect default risk.
+##  License
 
-Visualizing Default vs Non Default across segments helps identify high-risk groups.
-**Technologies Used
-**
-Power BI Desktop
-
-DAX for measures and calculated columns
-
-CSV dataset from Kaggle
-**License**
-
-Dataset and project for educational purposes only.
+This project and dataset are intended for **educational and portfolio purposes only**.
