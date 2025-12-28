@@ -65,7 +65,7 @@ A performance-driven sports analytics dashboard centered on golf player statisti
 ###  Airlines Dashboard
 
  **Dashboard:**
-[https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf](https://github.com/karthic180/power-bi-dashboards/blob/d503f0f5b7113042f3c7233470f926ba510531d5/airlineen.pdf)
+https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf
 
  **ReadMe:**
 [https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock](https://github.com/karthic180/power-bi-dashboards/blob/4b2284f454dda9cd1adbe77847cf329563a59b60/Readme-AirlinesMock)
@@ -104,7 +104,7 @@ Explores LEGO’s historical evolution using the LEGO Sets & Themes Kaggle datas
 ###  Football Global Cup Dashboard (Mock)
 
  **Dashboard:**
-[https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/worldcup%20pbi.pdf)
+https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf
 
  **ReadMe:**
 https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup_README.md
