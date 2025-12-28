@@ -104,7 +104,7 @@ An end-to-end analysis of 90+ years of FIFA World Cup data, including match stat
 ###  UK Broadband Performance Dashboard
 
  **Dashboard:**
-[https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
+https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf
 
  **ReadMe:**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md
