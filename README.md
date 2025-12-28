@@ -8,7 +8,7 @@ Each project demonstrates **end-to-end Business Intelligence development**, incl
 * DAX calculations
 * Insightful, interactive visual reporting
 
-This repository showcases real-world analytical use cases across **finance, sports, aviation, retail, and global events**.
+This repository showcases real-world analytical use cases
 
 ---
 
