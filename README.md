@@ -109,6 +109,9 @@ https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf
  **ReadMe:**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md
 
+**Key Insights**
+https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md
+
 **Overview:**
 This dashboard provides a structured view of UK broadband performance using mock data designed to resemble real Ofcom broadband reporting. It highlights how broadband providers and UK regions compare across key performance indicators such as download speed, upload speed, rural vs. urban performance, and average monthly cost.
 
