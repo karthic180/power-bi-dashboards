@@ -16,11 +16,14 @@ This repository showcases real-world analytical use cases
 
 ###  Loan Analytics Dashboard (Mock)
 
- **Dashboard:**
+ **Dashboard**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
 
- **ReadMe:**
+ **ReadMe**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
+
+ **Key Insights**
+https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Dashboard_Insights.md
 
 **Overview:**
 A comprehensive financial analytics dashboard built using the **Kaggle Loan Default dataset**. It focuses on borrower risk assessment and default behavior through interactive KPIs and deep-dive visuals.
@@ -109,7 +112,7 @@ https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf
  **ReadMe:**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md
 
-**Key Insights**
+ **Key Insights**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md
 
 **Overview:**
