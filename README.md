@@ -22,13 +22,13 @@ This repository showcases real-world analytical use cases
  **ReadMe**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
 
- **Key Insights**
+ **Full Key Insights**
 https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Dashboard_Insights.md
 
-**Overview:**
+**Overview**
 A comprehensive financial analytics dashboard built using the **Kaggle Loan Default dataset**. It focuses on borrower risk assessment and default behavior through interactive KPIs and deep-dive visuals.
 
-**Key Insights & Features:**
+**Key Insights & Features**
 
 * Default vs Non-Default analysis by borrower demographics
 * Credit Score, Income, Employment Length & Loan Term risk breakdown
@@ -45,16 +45,16 @@ A comprehensive financial analytics dashboard built using the **Kaggle Loan Defa
 
 ###  Golf Performance Dashboard
 
- **Dashboard:**
+ **Dashboard**
 https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf
 
- **ReadMe:**
+ **ReadMe**
 https://github.com/karthic180/power-bi-dashboards/blob/main/Golf_Mock_Dashboard_README.md
 
 **Overview:**
 A performance-driven sports analytics dashboard centered on golf player statistics and competitive trends.
 
-**Key Insights & Features:**
+**Key Insights & Features**
 
 * Player scoring trends over time
 * Player-to-player performance comparisons
@@ -67,38 +67,38 @@ A performance-driven sports analytics dashboard centered on golf player statisti
 
 ###  Airlines Dashboard
 
- **Dashboard:**
+ **Dashboard**
 https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf
 
- **ReadMe:**
+ **ReadMe**
 https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md
 
-**Overview:**
+**Overview**
 Analyzes long-term aviation trends including passengers, freight, aircraft movements, and year-over-year growth across multiple decades.
 
 ---
 ###  LEGO Sets & Themes Dashboard
 
- **Dashboard:**
+ **Dashboard**
 [https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
 
- **ReadMe:**
+ **ReadMe**
 [https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
 
-**Overview:**
+**Overview**
 Explores LEGO’s historical evolution using the LEGO Sets & Themes Kaggle dataset, highlighting release trends, theme popularity, and set complexity.
 
 ---
 
 ###  Football Global Cup Dashboard (Mock)
 
- **Dashboard:**
+ **Dashboard**
 https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf
 
- **ReadMe:**
+ **ReadMe**
 https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup_README.md
 
-**Overview:**
+**Overview**
 An end-to-end analysis of 90+ years of FIFA World Cup data, including match statistics, team performance, and historical trends.
 
 ---
@@ -106,17 +106,30 @@ An end-to-end analysis of 90+ years of FIFA World Cup data, including match stat
 
 ###  UK Broadband Performance Dashboard
 
- **Dashboard:**
+ **Dashboard**
 https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf
 
- **ReadMe:**
+ **ReadMe**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md
 
- **Key Insights**
+ **Full Key Insights**
 https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md
 
-**Overview:**
+**Overview**
 This dashboard provides a structured view of UK broadband performance using mock data designed to resemble real Ofcom broadband reporting. It highlights how broadband providers and UK regions compare across key performance indicators such as download speed, upload speed, rural vs. urban performance, and average monthly cost.
+
+**Key Insights & Features**
+Urban broadband speeds are nearly three times faster than rural speeds, highlighting a persistent performance gap despite strong rural coverage levels.
+
+Virgin Media stands out as the top provider, offering the best combination of speed and value compared to other major UK ISPs.
+
+Broadband costs vary significantly across providers, with some charging premium prices without delivering proportional speed benefits.
+
+The East Midlands emerges as the strongest region overall, balancing high speeds with competitive monthly costs.
+
+Upload speeds remain consistently low across all providers, indicating a nationwide limitation that affects remote work and cloud‑based activities.
+
+Regional cost differences do not always align with performance, suggesting uneven competition and potential inefficiencies in certain area
 
 ---
 
