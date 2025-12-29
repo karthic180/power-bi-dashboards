@@ -1,4 +1,4 @@
- Key Insights from the UK Broadband Dashboard
+** Key Insights from the UK Broadband Dashboard**
  1. Urban areas significantly outperform rural areas
 Avg Urban Speed: 87.38 Mbps
 
