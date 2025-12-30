@@ -3,9 +3,13 @@
 ---
 
 # **UK Rail Dashboard (Mock)**
-
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Transportation-1976D2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-4CAF50?style=for-the-badge" />
+</p>
 **Dashboard**  
-[National Rail UK Train Ticket Data.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
+https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf
 
 **ReadMe**  
 [NatRail_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)
@@ -15,11 +19,8 @@
 
 **Dataset (similar public dataset):**  
 https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Transportation-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-green?style=flat-square" />
-</p>
+
+
 
 ---
 
@@ -46,6 +47,11 @@ https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data
 ---
 
 # **LEGO Sets & Themes Dashboard**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Consumer%20Products-E91E63?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-FFC107?style=for-the-badge" />
+</p>
 
 **Dashboard**  
 [lego set theems dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
@@ -55,11 +61,8 @@ https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data
 
 **Dataset:**  
 https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Consumer%20Products-yellow?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-blue?style=flat-square" />
-</p>
+
+
 
 ---
 
@@ -81,6 +84,11 @@ https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database
 ---
 
 # **UK Broadband Performance Dashboard**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Telecom-9C27B0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-UK%20Gov-2E7D32?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-FF9800?style=for-the-badge" />
+</p>
 
 **Dashboard**  
 [BB PBI Mock.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
@@ -93,11 +101,9 @@ https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database
 
 **Dataset:**  
 https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Telecom-purple?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-UK%20Gov-darkgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-orange?style=flat-square" />
-</p>
+
+
+
 
 ---
 
@@ -122,6 +128,11 @@ https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-li
 ---
 
 # **Airlines Dashboard**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Aviation-0288D1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-4CAF50?style=for-the-badge" />
+</p>
 
 **Dashboard**  
 [Airline_MOCK.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
@@ -131,11 +142,8 @@ https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-li
 
 **Dataset:**  
 https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Aviation-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-green?style=flat-square" />
-</p>
+
+
 
 ---
 
@@ -157,6 +165,10 @@ https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 ---
 
 # **Golf Performance Dashboard**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Player%20Performance-03A9F4?style=for-the-badge" />
+</p>
 
 **Dashboard**  
 [golf dashboard snap.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf)
@@ -166,11 +178,8 @@ https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
 **Dataset:**  
 https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sales/  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Sports-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Minitab-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Player%20Performance-blue?style=flat-square" />
-</p>
+
+
 
 ---
 
@@ -193,6 +202,11 @@ https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sal
 ---
 
 # **Loan Analytics Dashboard (Mock)**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Finance-3F51B5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Default%20Risk-FF9800?style=for-the-badge" />
+</p>
 
 **Dashboard**  
 [loan dash pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
@@ -205,11 +219,7 @@ https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sal
 
 **Dataset:**  
 https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Finance-darkblue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Default%20Risk-yellow?style=flat-square" />
-</p>
+
 
 ---
 
@@ -231,9 +241,18 @@ https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download
 - KPI summary highlights total loans, total defaults, and the overall **default rate**.  
 - Interactive slicers enable deep exploration of borrower behaviour and risk patterns.  
 
----
+
+
+
+--
 
 # **Football Global Cup Dashboard (Mock)**
+<p align="left">
+  <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Historical%20Performance-03A9F4?style=for-the-badge" />
+</p>
+
 
 **Dashboard**  
 [footballglobalcup.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf)
@@ -243,11 +262,7 @@ https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download
 
 **Dataset:**  
 https://www.kaggle.com/datasets/abecklas/fifa-world-cup  
-<p>
-  <img src="https://img.shields.io/badge/Domain-Sports-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Historical%20Performance-blue?style=flat-square" />
-</p>
+
 
 ---
 
