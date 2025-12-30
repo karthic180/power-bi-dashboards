@@ -1,17 +1,3 @@
-# **Power BI Dashboards Portfolio**
-
-A curated collection of **interactive dashboards built using Microsoft Power BI**, showcasing complete **end‑to‑end Business Intelligence development**.  
-Each project demonstrates:
-
-- Data preparation & transformation  
-- Data modelling & relational schema design  
-- DAX measure creation  
-- Insight‑driven, interactive visual reporting  
-
-This portfolio highlights real‑world analytical scenarios across transportation, finance, broadband, sports, aviation, and consumer products.
-
----
-
 # **Dashboards**
 
 ---
@@ -26,6 +12,9 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 **Key Insights**  
 [NatRail_KeyTakeaways.md](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_KeyTakeaways.md)
+
+**Dataset (similar public dataset):**  
+https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data  
 
 ---
 
@@ -51,36 +40,33 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 ---
 
-# **Loan Analytics Dashboard (Mock)**
+# **LEGO Sets & Themes Dashboard**
 
 **Dashboard**  
-[loan dash pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
+[lego set theems dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
 
 **ReadMe**  
-[loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
+[Lego_set_themes.md](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
 
-**Full Key Insights**  
-[Loan_Dashboard_Insights.md](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Dashboard_Insights.md)
+**Dataset:**  
+https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database  
 
 ---
 
 ## **Business Questions Answered**
 
-- Which borrower characteristics are most associated with loan default?  
-- How do credit score, income, and employment length influence risk?  
-- Which loan purposes or terms carry the highest default rates?  
-- How can lenders segment customers for better underwriting decisions?  
-- What KPIs best represent portfolio health?  
+- Which LEGO themes are most popular over time?  
+- How has set complexity evolved?  
+- What release patterns exist across decades?  
+- Which themes drive the most product output?  
 
 ---
 
 ## **Key Insights Summary**
 
-- **Credit Score, Income, and Employment Length** are the strongest predictors of default.  
-- Clear segmentation of **default vs non‑default borrowers** across demographics.  
-- Certain loan purposes show **significantly higher default rates**.  
-- KPI summary highlights total loans, total defaults, and the overall **default rate**.  
-- Interactive slicers enable deep exploration of borrower behaviour and risk patterns.  
+- Strong growth in **set releases** over time.  
+- Clear identification of **top‑performing LEGO themes**.  
+- Increasing set complexity reflects evolving consumer demand.  
 
 ---
 
@@ -94,6 +80,9 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 **Full Key Insights**  
 [UK_Broadband_KeyInsights.md](https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md)
+
+**Dataset:**  
+https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance  
 
 ---
 
@@ -117,6 +106,36 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 ---
 
+# **Airlines Dashboard**
+
+**Dashboard**  
+[Airline_MOCK.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
+
+**ReadMe**  
+[airline_readme.md](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)
+
+**Dataset:**  
+https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction  
+
+---
+
+## **Business Questions Answered**
+
+- How have passenger and freight volumes changed over time?  
+- What long‑term trends exist in aircraft movements?  
+- Which years show growth, decline, or recovery?  
+- How do aviation metrics correlate across decades?  
+
+---
+
+## **Key Insights Summary**
+
+- Multi‑decade view of **passenger and freight growth**.  
+- Clear identification of **industry cycles and recovery periods**.  
+- Aircraft movement trends reflect operational capacity and demand shifts.  
+
+---
+
 # **Golf Performance Dashboard**
 
 **Dashboard**  
@@ -124,6 +143,9 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 **ReadMe**  
 [Golf_Mock_Dashboard_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/Golf_Mock_Dashboard_README.md)
+
+**Dataset:**  
+https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sales/  
 
 ---
 
@@ -145,57 +167,39 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 ---
 
-# **Airlines Dashboard**
+# **Loan Analytics Dashboard (Mock)**
 
 **Dashboard**  
-[Airline_MOCK.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
+[loan dash pbi.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
 
 **ReadMe**  
-[airline_readme.md](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)
+[loan_dash_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
+
+**Full Key Insights**  
+[Loan_Dashboard_Insights.md](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Dashboard_Insights.md)
+
+**Dataset:**  
+https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download  
 
 ---
 
 ## **Business Questions Answered**
 
-- How have passenger and freight volumes changed over time?  
-- What long‑term trends exist in aircraft movements?  
-- Which years show growth, decline, or recovery?  
-- How do aviation metrics correlate across decades?  
+- Which borrower characteristics are most associated with loan default?  
+- How do credit score, income, and employment length influence risk?  
+- Which loan purposes or terms carry the highest default rates?  
+- How can lenders segment customers for better underwriting decisions?  
+- What KPIs best represent portfolio health?  
 
 ---
 
 ## **Key Insights Summary**
 
-- Multi‑decade view of **passenger and freight growth**.  
-- Clear identification of **industry cycles and recovery periods**.  
-- Aircraft movement trends reflect operational capacity and demand shifts.  
-
----
-
-# **LEGO Sets & Themes Dashboard**
-
-**Dashboard**  
-[lego set theems dash.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
-
-**ReadMe**  
-[Lego_set_themes.md](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
-
----
-
-## **Business Questions Answered**
-
-- Which LEGO themes are most popular over time?  
-- How has set complexity evolved?  
-- What release patterns exist across decades?  
-- Which themes drive the most product output?  
-
----
-
-## **Key Insights Summary**
-
-- Strong growth in **set releases** over time.  
-- Clear identification of **top‑performing LEGO themes**.  
-- Increasing set complexity reflects evolving consumer demand.  
+- **Credit Score, Income, and Employment Length** are the strongest predictors of default.  
+- Clear segmentation of **default vs non‑default borrowers** across demographics.  
+- Certain loan purposes show **significantly higher default rates**.  
+- KPI summary highlights total loans, total defaults, and the overall **default rate**.  
+- Interactive slicers enable deep exploration of borrower behaviour and risk patterns.  
 
 ---
 
@@ -206,6 +210,9 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 **ReadMe**  
 [footballglobalcup_README.md](https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup_README.md)
+
+**Dataset:**  
+https://www.kaggle.com/datasets/abecklas/fifa-world-cup  
 
 ---
 
@@ -226,7 +233,7 @@ This portfolio highlights real‑world analytical scenarios across transportatio
 
 ---
 
-# 🛠️ **Tools & Technologies**
+#  **Tools & Technologies**
 
 - **Power BI Desktop**  
 - **Power Query (M Language)**  
