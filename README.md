@@ -1,191 +1,171 @@
+## **Power BI Dashboards Portfolio**
+
+A curated collection of **interactive Power BI dashboards** demonstrating complete **end‑to‑end Business Intelligence development**. Each project answers real business questions through:
+
+- Data preparation & transformation  
+- Data modelling  
+- DAX measure creation  
+- Insight‑driven visual analytics  
+
+This portfolio highlights real‑world analytical scenarios across transport, finance, broadband, sports, aviation, and consumer products.
 
 ---
 
-## Power BI Dashboards Portfolio
+# **UK Rail Dashboard (Mock)**
 
-A curated collection of **interactive dashboards built using Microsoft Power BI**, showcasing **end-to-end Business Intelligence development**. Each project demonstrates:
-
-* Data preparation & transformation
-* Data modeling
-* DAX calculations
-* Insightful, interactive visual reporting
-
-This repository showcases real-world analytical use cases.
-
----
-
-## Dashboards
-
-### Loan Analytics Dashboard (Mock)
-
-**Dashboard**
-[Loan Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
-
-**ReadMe**
-[Loan Dashboard ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
-
-**Full Key Insights**
-[Loan Dashboard Insights](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Dashboard_Insights.md)
-
-**Overview**
-A comprehensive financial analytics dashboard built using the **Kaggle Loan Default dataset**. It focuses on borrower risk assessment and default behavior through interactive KPIs and detailed visuals.
-
-**Key Insights & Features**
-
-* Default vs Non-Default analysis by borrower demographics
-* Risk breakdown based on Credit Score, Income, Employment Length, and Loan Term
-* Interactive slicers for Gender, Marital Status, and Loan Purpose
-* KPI summary, including:
-
-  * Total Loans
-  * Total Defaults
-  * Default Rate (%)
-
-**Use Cases:** Credit risk analysis, underwriting insights, portfolio monitoring.
-
----
-
-### Golf Performance Dashboard
-
-**Dashboard**
-[Golf Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf)
-
-**ReadMe**
-[Golf Dashboard ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/Golf_Mock_Dashboard_README.md)
-
-**Overview**
-A performance-driven sports analytics dashboard focused on golf player statistics and competitive trends.
-
-**Key Insights & Features**
-
-* Player scoring trends over time
-* Player-to-player performance comparisons
-* Course difficulty and scoring impact
-* Round-by-round performance breakdowns
-
-**Use Cases:** Player performance evaluation, coaching insights, competitive analysis.
-
----
-
-### Airlines Dashboard
-
-**Dashboard**
-[Airlines Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
-
-**ReadMe**
-[Airlines Dashboard ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)
-
-**Overview**
-Analyzes long-term aviation trends, including passengers, freight, aircraft movements, and year-over-year growth across multiple decades.
-
----
-
-### LEGO Sets & Themes Dashboard
-
-**Dashboard**
-[LEGO Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
-
-**ReadMe**
-[LEGO Dashboard ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/a661a9de8e1ae11b124b02ea9f182ce3baf17870/Lego_set_themes.md)
-
-**Overview**
-Explores LEGO’s historical evolution using the LEGO Sets & Themes Kaggle dataset. Highlights trends in release schedules, theme popularity, and set complexity.
-
----
-
-### Football Global Cup Dashboard (Mock)
-
-**Dashboard**
-[Football Global Cup Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf)
-
-**ReadMe**
-[Football Global Cup ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup_README.md)
-
-**Overview**
-An end-to-end analysis of 90+ years of FIFA World Cup data, including match statistics, team performance, and historical trends.
-
----
-
-### UK Rail Dashboard (Mock)
-
-**Dashboard**
+**Dashboard**  
 [UK Rail Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
 
-**ReadMe**
+**ReadMe**  
 [UK Rail Dashboard ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)
 
-**Overview**
-This project analyzes over half a million UK National Rail ticket transactions to uncover patterns in customer behavior, journey performance, revenue generation, and operational efficiency. It transforms the dataset into an interactive dashboard, shedding light on how passengers travel, what they purchase, how delays impact refunds, and which stations dominate the network.
+**Business Questions Answered**
+
+- Which stations generate the highest passenger volume?  
+- What factors contribute most to journey delays?  
+- How do ticket types and classes impact revenue?  
+- What drives refund requests, and how can they be reduced?  
+- How do purchase behaviours differ across channels and payment methods?
 
 **Key Insights Summary**
 
-1. **Transaction & Purchase Behavior**
-
-   * Over 500,000 transactions processed.
-   * Online purchases (58%) dominate over station purchases.
-   * Credit cards are the most common payment method.
-   * Adult Railcards (66%) significantly reduce average ticket prices.
-
-2. **Revenue & Pricing**
-
-   * Total revenue exceeds £30 million, with return tickets contributing 40%.
-   * Average ticket price: £23.44
-   * First Class average price: £75 (more than double Standard Class).
-   * Revenue ranking by ticket type: Anytime → Off-Peak → Advance.
-
-3. **Journey Performance**
-
-   * Majority of journeys run on time, but delays remain significant.
-   * Signal failures are the leading cause of delays.
-   * Delayed journeys strongly correlate with refund requests.
-
-4. **Refund Requests**
-
-   * Only 3% of all transactions result in a refund.
-   * Refunds are primarily due to delays exceeding 30 minutes.
-
-5. **Station & Route Insights**
-
-   * London King’s Cross is the busiest departure station with over 50,000 journeys.
-   * Other major hubs include London Euston, Birmingham New Street, and Manchester Piccadilly.
-
-6. **Ticket Type & Class Trends**
-
-   * Standard Class represents 90% of all journeys.
-   * First Class, while smaller in volume, contributes disproportionately to revenue.
+- **London King’s Cross** is the busiest departure station.  
+- **Signal failures** are the leading cause of delays and refunds.  
+- **Online purchases dominate**, with credit cards as the most used payment method.  
+- **Revenue exceeds £30M**, driven by return and Anytime tickets.  
+- **Standard Class = 90%** of journeys, but First Class contributes disproportionately to revenue.  
+- Only **3% of journeys** result in refunds, mostly due to delays over 30 minutes.
 
 ---
 
-### UK Broadband Performance Dashboard
+# **Loan Analytics Dashboard (Mock)**
 
-**Dashboard**
+**Dashboard**  
+[Loan Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
+
+**Business Questions Answered**
+
+- What borrower characteristics are most associated with loan default?  
+- How does credit score, income, or employment length affect risk?  
+- Which loan purposes or terms carry the highest default rates?  
+- How can lenders segment customers for better underwriting decisions?
+
+**Key Insights Summary**
+
+- Credit Score, Income, and Employment Length are **strong predictors of default risk**.  
+- Clear segmentation of **default vs non‑default borrowers** across demographics.  
+- Certain loan purposes show **higher‑than‑average default rates**.  
+- KPI summary highlights total loans, defaults, and the overall **default rate**.
+
+---
+
+# **UK Broadband Performance Dashboard**
+
+**Dashboard**  
 [UK Broadband Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
 
-**ReadMe**
-[UK Broadband ReadMe](https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md)
+**Business Questions Answered**
 
-**Full Key Insights**
-[UK Broadband Key Insights](https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md)
+- Which broadband providers deliver the best speed‑to‑cost value?  
+- How do broadband speeds differ between rural and urban regions?  
+- Which regions underperform and require infrastructure investment?  
+- How competitive is each provider in terms of pricing and performance?
 
-**Overview**
-This dashboard offers a structured view of UK broadband performance using mock data, resembling real Ofcom broadband reporting. It highlights comparisons between broadband providers and regions across key performance indicators such as download speed, upload speed, rural vs. urban performance, and average monthly cost.
+**Key Insights Summary**
 
-**Key Insights & Features**
+- **Urban speeds are nearly 3× faster** than rural speeds.  
+- **Virgin Media** leads in speed and value.  
+- Some providers charge premium prices without proportional performance.  
+- The **East Midlands** ranks highest for balanced cost and speed.  
+- Upload speeds remain consistently low across all providers.
 
-* Urban broadband speeds are nearly three times faster than rural speeds, highlighting a persistent performance gap.
-* Virgin Media is the top provider, offering the best combination of speed and value compared to other major UK ISPs.
-* Broadband costs vary significantly across providers, with some charging premium prices without delivering proportional speed benefits.
-* The East Midlands is the strongest region overall, balancing high speeds with competitive monthly costs.
-* Upload speeds remain consistently low across all providers, impacting remote work and cloud-based activities.
+---
+
+# **Golf Performance Dashboard**
+
+**Dashboard**  
+[Golf Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf)
+
+**Business Questions Answered**
+
+- How do players perform over time?  
+- Which players outperform others in head‑to‑head comparisons?  
+- How does course difficulty impact scoring?  
+- What patterns emerge across rounds and tournaments?
+
+**Key Insights Summary**
+
+- Clear visibility of **player scoring trends** and improvement areas.  
+- **Player‑to‑player comparisons** highlight competitive strengths.  
+- Course difficulty significantly influences scoring outcomes.  
+- Round‑level insights support coaching and performance optimisation.
+
+---
+
+# **Airlines Dashboard**
+
+**Dashboard**  
+[Airlines Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
+
+**Business Questions Answered**
+
+- How have passenger and freight volumes changed over time?  
+- What long‑term trends exist in aircraft movements?  
+- Which years show growth, decline, or recovery?  
+- How do aviation metrics correlate across decades?
+
+**Key Insights Summary**
+
+- Multi‑decade view of **passenger and freight growth**.  
+- Clear identification of **industry cycles and recovery periods**.  
+- Aircraft movement trends reflect operational capacity and demand shifts.
+
+---
+
+# **LEGO Sets & Themes Dashboard**
+
+**Dashboard**  
+[LEGO Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20theems%20dash.pdf)
+
+**Business Questions Answered**
+
+- Which LEGO themes are most popular over time?  
+- How has set complexity evolved?  
+- What release patterns exist across decades?  
+- Which themes drive the most product output?
+
+**Key Insights Summary**
+
+- Strong growth in **set releases** over time.  
+- Clear identification of **top‑performing LEGO themes**.  
+- Increasing set complexity reflects evolving consumer demand.
+
+---
+
+# **Football Global Cup Dashboard (Mock)**
+
+**Dashboard**  
+[Football Global Cup Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/footballglobalcup.pdf)
+
+**Business Questions Answered**
+
+- Which teams have historically performed the best?  
+- What scoring patterns emerge across tournaments?  
+- How has global football competitiveness changed over time?  
+- Which nations show long‑term improvement or decline?
+
+**Key Insights Summary**
+
+- Long‑term view of **team performance and progression**.  
+- Match‑level insights reveal **scoring patterns and competitive balance**.  
+- Historical trends highlight shifts in global football dominance.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Power BI Desktop**
-* **Power Query (M Language)**
-* **DAX Measures**
-* **Microsoft Excel**
-* **Power Query in Excel**
-
----
+- **Power BI Desktop**  
+- **Power Query (M Language)**  
+- **DAX Measures**  
+- **Microsoft Excel**  
+- **Power Query in Excel**
