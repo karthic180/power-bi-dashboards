@@ -8,8 +8,9 @@
   <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
   <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-4CAF50?style=for-the-badge" />
 </p>
-**Dashboard**  
-https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf
+**Dashboard**
+
+[NatRail Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
 
 **ReadMe**  
 [NatRail_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)
