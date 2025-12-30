@@ -15,6 +15,11 @@
 
 **Dataset (similar public dataset):**  
 https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Transportation-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-green?style=flat-square" />
+</p>
 
 ---
 
@@ -50,6 +55,11 @@ https://www.kaggle.com/datasets/harshitshankhdhar/national-rail-ticket-data
 
 **Dataset:**  
 https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Consumer%20Products-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-blue?style=flat-square" />
+</p>
 
 ---
 
@@ -83,6 +93,11 @@ https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database
 
 **Dataset:**  
 https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Telecom-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-UK%20Gov-darkgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-orange?style=flat-square" />
+</p>
 
 ---
 
@@ -116,6 +131,11 @@ https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-li
 
 **Dataset:**  
 https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Aviation-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-green?style=flat-square" />
+</p>
 
 ---
 
@@ -146,6 +166,11 @@ https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
 **Dataset:**  
 https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sales/  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Sports-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Minitab-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Player%20Performance-blue?style=flat-square" />
+</p>
 
 ---
 
@@ -180,6 +205,11 @@ https://support.minitab.com/en-us/datasets/time-series-data-sets/golf-driver-sal
 
 **Dataset:**  
 https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Finance-darkblue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Default%20Risk-yellow?style=flat-square" />
+</p>
 
 ---
 
@@ -213,6 +243,11 @@ https://www.kaggle.com/datasets/nikhil1e9/loan-default?resource=download
 
 **Dataset:**  
 https://www.kaggle.com/datasets/abecklas/fifa-world-cup  
+<p>
+  <img src="https://img.shields.io/badge/Domain-Sports-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Historical%20Performance-blue?style=flat-square" />
+</p>
 
 ---
 
