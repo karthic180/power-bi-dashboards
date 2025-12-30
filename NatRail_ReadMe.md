@@ -1,115 +1,84 @@
-National Rail UK Train Ticket Data Analysis
-This repository contains a comprehensive analysis of UK National Rail ticket sales, journey performance, refund behaviour, and station-level travel patterns. The insights are derived from over 500,000+ transactions, covering ticket types, classes, payment methods, delays, and revenue trends.
+# UK Rail Ticket Analytics Dashboard (Mock)
 
-The project includes:
+## Overview
 
-A full Power BI dashboard
+This project analyses over **500,000 UK National Rail ticket transactions** to uncover trends in passenger behaviour, journey performance, revenue, and station activity.  
+The dashboard is built end-to-end in **Power BI**, covering data cleaning, modelling, DAX measures, and interactive visual reporting.
 
-Key performance indicators (KPIs)
+The goal is to help stakeholders understand:
 
-Visual breakdowns of journey status, ticket pricing, refund patterns, and station popularity
+- How and where passengers travel  
+- Which ticket types and classes drive revenue  
+- What causes delays and how they link to refunds  
+- How customer purchase behaviour varies across channels and payment methods  
 
-Insights to support operational improvements and customer experience optimisation
+---
 
- Project Overview
-The analysis focuses on six major areas:
+## Dataset
 
-Purchases & Transactions
+The dataset used in this project is publicly available on Kaggle:
 
-Journey Analysis
+**National Rail UK Train Ticket Data**  
+ https://www.kaggle.com/datasets/motsimaslam/national-rail-uk-train-ticket-data
 
-Ticket Type & Class
+The dataset includes:
 
-Refund Requests Analysis
+- Ticket transactions with ticket type, class, and railcard usage  
+- Journey details including origin, destination, and distance  
+- Delay information and reasons  
+- Refunds and related attributes  
 
-Station & Destination Analysis
+---
 
-Ticket Price Analysis
+## Files in This Project
 
-Each section provides visual insights into customer behaviour, operational performance, and revenue drivers.
+- **Dashboard PDF:**  
+https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf
+(Snapshot of the Power BI report pages.)
 
-Key Features
- Transaction Insights
-Over 500K+ total transactions analysed
+- **Project ReadMe:**  
+https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md
+  High-level explanation of the dashboard structure and pages.
 
-Breakdown by purchase type (Online vs Station)
+- **Key Insights:**  
+https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_KeyTakeaways.md
+  Detailed summary of findings and business insights.
 
-Payment method distribution (Credit, Debit, Contactless)
+---
 
- Journey Performance
-On-time vs delayed vs cancelled journeys
+## Business Questions Answered
 
-Delay reasons (Signal Failure, Staffing, Weather, Technical Issues)
+- Which stations generate the highest passenger traffic?  
+- How do ticket type and class impact overall revenue?  
+- What are the main causes of journey delays?  
+- What patterns exist in refund requests, and how can they be reduced?  
+- How do purchase channels (online vs station) and payment methods vary by customer behaviour?  
 
-Journey duration patterns
+---
 
-Refund requests linked to delays
+## Key Insights Summary
 
- Ticket Sales & Pricing
-Ticket class distribution (Standard vs First Class)
+- **Online purchases dominate**, with credit cards as the most common payment method.  
+- **Total revenue exceeds £30M**, driven largely by return and Anytime tickets.  
+- **Average ticket price is £23.44**, with **First Class averaging around £75**, significantly higher than Standard Class.  
+- **Signal failures** are the leading cause of delays and strongly linked to refund requests.  
+- Only about **3% of journeys result in refunds**, mostly for delays exceeding 30 minutes.  
+- **London King’s Cross** is the busiest departure station, followed by other major UK hubs such as London Euston and Birmingham New Street.  
+- **Standard Class accounts for ~90% of journeys**, while First Class, though lower in volume, contributes disproportionately to revenue.  
 
-Ticket type revenue (Advance, Off-Peak, Anytime)
+---
 
-Average ticket price analysis
+## Tools & Techniques
 
-Railcard usage and its impact on pricing
+- **Power BI Desktop** – data modelling, DAX, and report design  
+- **Power Query** – data cleaning and transformation  
+- **DAX** – calculated measures for KPIs and advanced metrics  
+- **Microsoft Excel / CSV** – initial data inspection and validation  
 
-Station-Level Analysis
-Top 100 departure and arrival stations
+---
 
-London King’s Cross identified as the busiest departure station
+## Possible Extensions
 
-Route-level transaction volumes
-
- KPIs
-KPI	Value	Description
-Total Transactions	32K (sample) / 500K+ overall	Indicates the scale of ticket sales and travel demand
-Total Revenue	£741.92K	Revenue generated from all ticket purchases
-Average Ticket Price	£23.44	Average price across all ticket types and classes
-Refund Requests	1,118	Represents ~3% of total transactions
-Average Delay Duration	97K minutes (cumulative)	Total delay time across all delayed journeys
-Most Popular Departure Station	London King’s Cross	Over 50,000 journeys originated here
-First Class Avg Price	£75	Reflects premium pricing
-Standard Class Avg Price	£35	Majority of tickets sold
- Key Insights Summary
- Purchases & Transactions
-Majority of tickets purchased online (58.5%)
-
-Credit card is the most used payment method
-
-Railcard usage dominated by Adult Railcards (66%)
-
- Journey Analysis
-Signal failures are the leading cause of delays
-
-Delays account for a significant portion of refund requests
-
-Most journeys remain on time, but high-traffic routes show more disruptions
-
- Ticket Type & Class
-Return tickets generate 40% of total revenue
-
-Standard class accounts for 90% of all journeys
-
-First Class tickets are significantly more expensive
-
- Refund Requests
-Only 3% of transactions result in refunds
-
-Refunds strongly correlated with delays > 30 minutes
-
-Technical and staffing issues also contribute
-
- Station & Destination
-London-based stations dominate both departures and arrivals
-
-Manchester Piccadilly, Birmingham New Street, and Edinburgh Waverley are top destinations
-
- Tech Stack
-Power BI – Data modelling & dashboard visualisation
-
-DAX – KPI calculations & measures
-
-Excel / CSV – Data source
-
-GitHub – Version control & documentation
+- Add **time-series analysis** of delays and refunds by month/season.  
+- Incorporate **customer segmentation** if demographic data is available.  
+- Build **scenario analysis** (e.g., impact of reducing specific delay causes).  
