@@ -307,80 +307,27 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 [Restaurant Orders Dataset](https://github.com/karthic180/power-bi-dashboards/blob/main/restusrnat%20orders.xlsx)
 
 ---
+##  Business Questions Answered
 
-##  Dashboard Includes
-
-### **KPI Overview**
-- Total Sales  
-- Total Orders  
-- Avg Sale per Order  
-- Restaurant Count  
-
-### **Sales Trends**
-- Monthly sales  
-- Monthly order volume  
-
-### **State & City Analysis**
-- Sales by state (map visual)  
-- Top‑performing states  
-- City‑level hotspots  
-
-### **Restaurant Performance**
-- Top restaurants by revenue  
-- Order count comparison  
-- Average order value  
-
-### **Entrée Insights**
-- Ingredient frequency patterns  
-- Cuisine category grouping  
-- Correlation between entrée type & order value  
-
-### **Interactive Slicers**
-- Month  
-- State  
-- Restaurant Name  
-- Order Date  
+- **Which restaurants generate the most revenue and why?**  
+- **How do sales and order volume vary across months?**  
+- **Which states and cities contribute the highest sales?**  
+- **How do order values differ across customer segments and restaurant tiers?**  
+- **What entrée ingredients or cuisine types drive higher order values?**  
+- **Where are the strongest geographic hotspots for demand?**  
 
 ---
 
-##  **Key Insights Summary**
+##  Key Insights Summary
 
-### **1. Revenue Is Concentrated Among a Few Restaurants**
-A small group of “hero restaurants” generates a disproportionately large share of total sales.  
-These locations consistently show **higher average order values**, making them ideal for targeted marketing and partnership strategies.
-
-### **2. Strong Geographic Differences in Sales**
-States such as **CO, FL, NC, and MO** lead in total revenue.  
-Other states show **steady order volume but lower order value**, highlighting opportunities for regional pricing and expansion planning.
-
-### **3. Wide Variability in Order Value**
-Order values range from **$15 to over $300**, driven by:
-- Single meals vs catering orders  
-- Different restaurant tiers  
-- Diverse customer segments  
-
-This variability supports **customer segmentation** and **pricing strategy optimization**.
-
-### **4. City‑Level Hotspots Drive Volume**
-Cities like **San Antonio, Austin, Amarillo, and San Diego** appear frequently and show strong order density.  
-These hotspots represent **high‑demand markets** where targeted promotions could deliver strong returns.
-
-### **5. Entrée Descriptions Reveal Menu Patterns**
-Rich entrée descriptions enable:
-- Ingredient frequency analysis  
-- Cuisine classification (e.g., Mexican, fast food, breakfast)  
-- Correlation between entrée type and order value  
-
-These insights support **menu optimization** and **product development**.
-
-### **6. Monthly Sales Trends Show Seasonal Patterns**
-Monthly sales visuals reveal **seasonal fluctuations**, helping identify:
-- Peak demand periods  
-- Opportunities for seasonal campaigns  
-- Slow periods requiring promotional support  
+- **Revenue is concentrated among a small group of high‑performing restaurants**, indicating strong opportunities for targeted marketing and partnership strategies.  
+- **State‑ and city‑level analysis reveals clear geographic hotspots**, with locations like San Antonio, Austin, Amarillo, and San Diego showing consistently high order density.  
+- **Order values vary widely (from $15 to $300+)**, reflecting differences in customer segments, restaurant tiers, and order types (single meals vs catering).  
+- **Entrée descriptions provide rich text‑based insights**, enabling ingredient frequency analysis, cuisine classification, and correlations between entrée type and order value.  
+- **Monthly sales trends highlight seasonal patterns**, helping identify peak demand periods and opportunities for promotional timing.  
 
 
-Just tell me the direction you want to take it.
+---
 #  **Tools & Technologies**
 
 - **Power BI Desktop**  
