@@ -1,0 +1,35 @@
+Data Dictionary — Orders & Sales Dashboard
+This data dictionary documents all fields used in the Power BI dashboard, including definitions, data types, and usage notes.
+
+ 1. Orders Table
+Field Name	Data Type	Description
+Order ID	Integer	Unique identifier for each order.
+Order Date	Date	Date the order was placed. Used for monthly and yearly trend analysis.
+Year	Integer	Extracted from Order Date for time intelligence.
+Month	Text	Month name extracted from Order Date.
+Total Sales	Decimal	Total revenue generated from the order.
+Entrée Description	Text	Text description of the entrée ordered; used for ingredient and cuisine analysis.
+2. Restaurant Table
+Field Name	Data Type	Description
+Restaurant Name	Text	Name of the restaurant fulfilling the order.
+City	Text	City where the restaurant is located.
+State	Text	State where the restaurant is located; used for geographic analysis.
+Restaurant Count	Integer	Distinct count of restaurants in the dataset.
+ 3. Aggregated Metrics (Calculated Fields)
+Metric	Type	Description
+Total Sales (KPI)	Measure	SUM of Total Sales across all orders.
+Total Orders	Measure	COUNT of Order ID.
+Average Sale per Order	Measure	Total Sales ÷ Total Orders.
+Orders by City	Measure	COUNT of orders grouped by city.
+Sales by State	Measure	SUM of Total Sales grouped by state.
+ 4. Slicer Fields
+Field	Description
+Month	Filters visuals by month.
+State	Filters visuals by state.
+Restaurant Name	Filters visuals by restaurant.
+Order Date Range	Allows date‑range filtering.
+ 5. Supporting Fields
+Field	Description
+Cuisine Type (optional)	Derived from entrée descriptions (e.g., Mexican, Fast Food).
+Ingredient Tags (optional)	Extracted keywords from entrée descriptions.
+Order Value Category	Buckets such as Low (<$50), Medium ($50–$150), High (>$150).
