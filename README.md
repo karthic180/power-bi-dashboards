@@ -282,68 +282,105 @@ https://www.kaggle.com/datasets/abecklas/fifa-world-cup
 
 ---
 
-# **Orders & Sales Dashboard(Mock)**
+#  **Orders & Sales Dashboard (Mock)**
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Domain](https://img.shields.io/badge/Domain-Restaurant%20Analytics-brown?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/PowerBI-Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0E76A8?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-This dashboard analyzes 5,000 restaurant orders across the United States and provides insights into sales performance, geographic trends, restaurant profitability, and entrée‑level patterns. 
 
-**Dashboard**
 
+This Power BI dashboard analyzes **5,000 restaurant orders across the United States**, uncovering insights into **sales performance**, **geographic trends**, **restaurant profitability**, and **entrée‑level menu patterns**.
+
+---
+
+## Dashboard & Files
+
+🔗**Dashboard (PDF Preview)**  
 [Orders Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/OrdersDash.pdf)
 
-**ReadMe**  
+ **Detailed ReadMe**  
 [Orders Dash_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/Ordrs_PBI_Reademe.md)
 
-**Dataset:**  
-(https://github.com/karthic180/power-bi-dashboards/blob/main/restusrnat%20orders.xlsx)
+ **Dataset**  
+[Restaurant Orders Dataset](https://github.com/karthic180/power-bi-dashboards/blob/main/restusrnat%20orders.xlsx)
 
-It includes:
+---
 
-KPI Overview (Total Sales, Total Orders, Avg Sale per Order, Restaurant Count)
+##  Dashboard Includes
 
-Sales Trends (Monthly sales and order volume)
+### **KPI Overview**
+- Total Sales  
+- Total Orders  
+- Avg Sale per Order  
+- Restaurant Count  
 
-State & City Analysis (Sales by state, map visuals, city hotspots)
+### **Sales Trends**
+- Monthly sales  
+- Monthly order volume  
 
-Restaurant Performance (Top restaurants by revenue, order count, and average order value)
+### **State & City Analysis**
+- Sales by state (map visual)  
+- Top‑performing states  
+- City‑level hotspots  
 
-Entrée Insights (Ingredient patterns, cuisine categories, entrée value correlation)
+### **Restaurant Performance**
+- Top restaurants by revenue  
+- Order count comparison  
+- Average order value  
 
-Interactive Slicers (Month, State, Restaurant Name, Order Date)
-Key Insights Summary
- 1. Revenue Is Concentrated Among a Few Restaurants
-A small group of restaurants contributes a disproportionately large share of total sales. These “hero restaurants” consistently generate higher average order values and should be prioritized for marketing, partnerships, and retention strategies.
+### **Entrée Insights**
+- Ingredient frequency patterns  
+- Cuisine category grouping  
+- Correlation between entrée type & order value  
 
- 2. Strong Geographic Differences in Sales
-Sales performance varies significantly by state. States like CO, FL, NC, and MO show higher total sales, while others have lower revenue but steady order volume. This highlights clear opportunities for regional targeting and expansion planning.
+### **Interactive Slicers**
+- Month  
+- State  
+- Restaurant Name  
+- Order Date  
 
- 3. Wide Variability in Order Value
-Order values range from $15 to over $300, indicating:
+---
 
-Multiple order types (single meals vs. catering)
+##  **Key Insights Summary**
 
-Different restaurant tiers
+### **1. Revenue Is Concentrated Among a Few Restaurants**
+A small group of “hero restaurants” generates a disproportionately large share of total sales.  
+These locations consistently show **higher average order values**, making them ideal for targeted marketing and partnership strategies.
 
-Diverse customer segments
-This variability supports customer segmentation and pricing strategy optimization.
+### **2. Strong Geographic Differences in Sales**
+States such as **CO, FL, NC, and MO** lead in total revenue.  
+Other states show **steady order volume but lower order value**, highlighting opportunities for regional pricing and expansion planning.
 
- 4. City‑Level Hotspots Drive Volume
-Cities such as San Antonio, Austin, Amarillo, and San Diego appear frequently and show strong order density. These hotspots represent high‑demand markets where targeted promotions could yield strong returns.
+### **3. Wide Variability in Order Value**
+Order values range from **$15 to over $300**, driven by:
+- Single meals vs catering orders  
+- Different restaurant tiers  
+- Diverse customer segments  
 
- 5. Entrée Descriptions Reveal Menu Patterns
-Entrée descriptions contain rich ingredient and cuisine details, enabling:
+This variability supports **customer segmentation** and **pricing strategy optimization**.
 
-Ingredient frequency analysis
+### **4. City‑Level Hotspots Drive Volume**
+Cities like **San Antonio, Austin, Amarillo, and San Diego** appear frequently and show strong order density.  
+These hotspots represent **high‑demand markets** where targeted promotions could deliver strong returns.
 
-Cuisine classification (e.g., Mexican, fast food, breakfast)
+### **5. Entrée Descriptions Reveal Menu Patterns**
+Rich entrée descriptions enable:
+- Ingredient frequency analysis  
+- Cuisine classification (e.g., Mexican, fast food, breakfast)  
+- Correlation between entrée type and order value  
 
-Correlation between entrée type and order value
-These insights can support menu optimization and product development.
+These insights support **menu optimization** and **product development**.
 
- 6. Monthly Sales Trends Show Seasonal Patterns
-Monthly sales visuals reveal fluctuations across the year, helping identify peak demand periods and opportunities for seasonal campaigns.
+### **6. Monthly Sales Trends Show Seasonal Patterns**
+Monthly sales visuals reveal **seasonal fluctuations**, helping identify:
+- Peak demand periods  
+- Opportunities for seasonal campaigns  
+- Slow periods requiring promotional support  
 
+
+Just tell me the direction you want to take it.
 #  **Tools & Technologies**
 
 - **Power BI Desktop**  
