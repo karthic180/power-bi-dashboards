@@ -282,7 +282,10 @@ https://www.kaggle.com/datasets/abecklas/fifa-world-cup
 
 ---
 
-Orders & Sales Dashboard
+**Orders & Sales Dashboard**
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 This dashboard analyzes 5,000 restaurant orders across the United States and provides insights into sales performance, geographic trends, restaurant profitability, and entrée‑level patterns. It includes:
 
 KPI Overview (Total Sales, Total Orders, Avg Sale per Order, Restaurant Count)
