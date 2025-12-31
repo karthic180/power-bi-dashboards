@@ -282,6 +282,53 @@ https://www.kaggle.com/datasets/abecklas/fifa-world-cup
 
 ---
 
+Orders & Sales Dashboard
+This dashboard analyzes 5,000 restaurant orders across the United States and provides insights into sales performance, geographic trends, restaurant profitability, and entrée‑level patterns. It includes:
+
+KPI Overview (Total Sales, Total Orders, Avg Sale per Order, Restaurant Count)
+
+Sales Trends (Monthly sales and order volume)
+
+State & City Analysis (Sales by state, map visuals, city hotspots)
+
+Restaurant Performance (Top restaurants by revenue, order count, and average order value)
+
+Entrée Insights (Ingredient patterns, cuisine categories, entrée value correlation)
+
+Interactive Slicers (Month, State, Restaurant Name, Order Date)
+Key Insights Summary
+ 1. Revenue Is Concentrated Among a Few Restaurants
+A small group of restaurants contributes a disproportionately large share of total sales. These “hero restaurants” consistently generate higher average order values and should be prioritized for marketing, partnerships, and retention strategies.
+
+ 2. Strong Geographic Differences in Sales
+Sales performance varies significantly by state. States like CO, FL, NC, and MO show higher total sales, while others have lower revenue but steady order volume. This highlights clear opportunities for regional targeting and expansion planning.
+
+ 3. Wide Variability in Order Value
+Order values range from $15 to over $300, indicating:
+
+Multiple order types (single meals vs. catering)
+
+Different restaurant tiers
+
+Diverse customer segments
+This variability supports customer segmentation and pricing strategy optimization.
+
+ 4. City‑Level Hotspots Drive Volume
+Cities such as San Antonio, Austin, Amarillo, and San Diego appear frequently and show strong order density. These hotspots represent high‑demand markets where targeted promotions could yield strong returns.
+
+ 5. Entrée Descriptions Reveal Menu Patterns
+Entrée descriptions contain rich ingredient and cuisine details, enabling:
+
+Ingredient frequency analysis
+
+Cuisine classification (e.g., Mexican, fast food, breakfast)
+
+Correlation between entrée type and order value
+These insights can support menu optimization and product development.
+
+ 6. Monthly Sales Trends Show Seasonal Patterns
+Monthly sales visuals reveal fluctuations across the year, helping identify peak demand periods and opportunities for seasonal campaigns.
+
 #  **Tools & Technologies**
 
 - **Power BI Desktop**  
