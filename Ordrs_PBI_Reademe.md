@@ -1,98 +1,89 @@
-Power BI Orders & Sales Dashboard
-This repository contains a Power BI dashboard analyzing 5,000 restaurant orders across the United States.
-The report provides insights into sales performance, geographic trends, restaurant profitability, and menu‑level entrée patterns.
+#  Power BI Orders & Sales Dashboard  
+**5,000 U.S. Restaurant Orders | Sales, Geography, Performance & Menu Insights**
 
-The dashboard is designed for analysts, restaurant operators, and business leaders who want to understand where revenue comes from, which restaurants drive performance, and how menu items influence order value.
+This repository contains an interactive **Power BI dashboard** analyzing **5,000 restaurant orders across the United States**.  
+The report uncovers **sales performance**, **geographic trends**, **restaurant profitability**, and **entrée‑level menu patterns**.
 
- Features
-Interactive KPIs (Total Sales, Total Orders, Avg Sale per Order, Restaurant Count)
+Designed for **analysts, restaurant operators, and business leaders**, the dashboard helps answer:
 
-Monthly sales trends
+- Where does revenue come from  
+- Which restaurants drive performance  
+- How do menu items influence order value  
 
-Sales by state and city
+---
 
-Restaurant performance ranking
+##  Features
 
-Entrée text analytics
+- **Interactive KPIs:** Total Sales, Total Orders, Avg Sale per Order, Restaurant Count  
+- **Monthly sales trends**  
+- **Sales by state and city**  
+- **Restaurant performance ranking**  
+- **Entrée text analytics (ingredients, cuisine patterns)**  
+- **Dynamic slicers** for flexible exploration  
 
-Dynamic slicers for exploration
+---
 
- Key Insights
- Sales Concentration by Restaurant
-A small number of restaurants generate a disproportionate share of revenue.
-High‑ticket restaurants show average order values above $200, making them ideal for targeted marketing and partnerships.
+##  Key Insights
 
- State‑Level Revenue Differences
-States like CO, FL, NC, MO lead in total sales.
-Some states have high order volume but low order value, revealing regional pricing and customer behavior differences.
+### **1. Sales Concentration by Restaurant**
+- A small number of restaurants generate a disproportionate share of revenue.  
+- High‑ticket restaurants average **$200+ per order**, ideal for targeted marketing and partnerships.
 
- High Variability in Order Value
-Order values range from $15 to $340, indicating:
+### **2. State‑Level Revenue Differences**
+- States such as **CO, FL, NC, and MO** lead in total sales.  
+- Some states show **high order volume but low order value**, revealing regional pricing and customer behavior differences.
 
-Multiple order types (single meals vs catering)
+### **3. High Variability in Order Value**
+Order values range from **$15 to $340**, driven by:
+- Single‑meal vs catering orders  
+- Different restaurant tiers  
+- Diverse customer segments  
 
-Different restaurant tiers
+### **4. City‑Level Hotspots**
+Cities like **San Antonio, Austin, Amarillo, and San Diego** appear frequently and show strong order density.
 
-Diverse customer segments
+### **5. Entrée Description Insights**
+Ingredient‑rich entrée descriptions enable:
+- Ingredient frequency analysis  
+- Cuisine classification  
+- Correlation between entrée type and order value  
 
- City‑Level Hotspots
-Cities such as San Antonio, Austin, Amarillo, San Diego appear frequently and show strong order density.
+---
 
- Entrée Description Insights
-Ingredient‑rich entrée descriptions allow:
+##  Power BI Pages Included
 
-Ingredient frequency analysis
+### **1. KPI Overview**
+- Total Sales  
+- Total Orders  
+- Avg Sale per Order  
+- Restaurant Count  
 
-Cuisine classification
+### **2. Sales Trends**
+- Total Sales by Month  
+- Orders by Month  
 
-Correlation between entrée type and order value
+### **3. Geographic Analysis**
+- Map: Sales by State  
+- Bar Chart: Top States  
+- State Summary Table  
 
- Power BI Pages Included
-1 KPI Overview
-Total Sales
+### **4. Restaurant Performance**
+- Restaurant Ranking Table  
+- Top 10 Restaurants by Sales  
+- Avg Order Value Comparison  
 
-Total Orders
+### **5. City Insights**
+- City‑level Orders & Sales Table  
+- City Heatmap  
 
-Avg Sale per Order
+### **6. Entrée / Menu Insights**
+- Ingredient Word Cloud  
+- Cuisine Category Grouping  
+- Scatter: Entrée Price vs Frequency  
 
-Restaurant Count
+### **7. Filters / Slicers**
+- Month  
+- State  
+- Restaurant Name  
+- Order Date  
 
-2️ Sales Trends
-Total Sales by Month
-
-Orders by Month
-
-3️ Geographic Analysis
-Map: Sales by State
-
-Bar Chart: Top States
-
-State summary table
-
-4️ Restaurant Performance
-Restaurant ranking table
-
-Top 10 restaurants by sales
-
-Avg order value comparison
-
-5️ City Insights
-City → Orders & Sales table
-
-City heatmap
-
-6️Entrée / Menu Insights
-Word cloud of ingredients
-
-Cuisine category grouping
-
-Scatter: Entrée price vs frequency
-
-7️ Filters / Slicers
-Month
-
-State
-
-Restaurant Name
-
-Order Date
