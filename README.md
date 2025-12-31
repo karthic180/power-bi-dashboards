@@ -166,7 +166,7 @@ https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
 ---
 
-# **Golf Performance Dashboard**
+# **Golf Performance Dashboard(Mock)**
 <p>
   <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Player%20Performance-03A9F4?style=for-the-badge" />
@@ -282,11 +282,23 @@ https://www.kaggle.com/datasets/abecklas/fifa-world-cup
 
 ---
 
-**Orders & Sales Dashboard**
+# **Orders & Sales Dashboard(Mock)**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-This dashboard analyzes 5,000 restaurant orders across the United States and provides insights into sales performance, geographic trends, restaurant profitability, and entrée‑level patterns. It includes:
+This dashboard analyzes 5,000 restaurant orders across the United States and provides insights into sales performance, geographic trends, restaurant profitability, and entrée‑level patterns. 
+
+**Dashboard**
+
+[Orders Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/OrdersDash.pdf)
+
+**ReadMe**  
+[Orders Dash_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/Ordrs_PBI_Reademe.md)
+
+**Dataset:**  
+(https://github.com/karthic180/power-bi-dashboards/blob/main/restusrnat%20orders.xlsx)
+
+It includes:
 
 KPI Overview (Total Sales, Total Orders, Avg Sale per Order, Restaurant Count)
 
