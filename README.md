@@ -1,14 +1,11 @@
-
----
-
-## **Global Video Game Market Analysis Dashboard**
+# **Global Video Game Market Analysis Dashboard**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat" />
   <a href="https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Sales%20Performance%20%26%20Trends-03A9F4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Sales%20Performance%20%26%20Trends-03A9F4?style=flat" />
 </p>
 
 **Dashboard**
@@ -44,10 +41,10 @@
 
 ## **Orders & Sales Dashboard (Mock)**
 
-![Domain](https://img.shields.io/badge/Domain-Restaurant%20Analytics-brown?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/PowerBI-Visualization-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0E76A8?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-217346?style=for-the-badge\&logo=microsoft-excel\&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Restaurant%20Analytics-brown?style=flat)
+![Power BI](https://img.shields.io/badge/PowerBI-Visualization-F2C811?style=flat\&logo=powerbi\&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0E76A8?style=flat)
+![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-217346?style=flat\&logo=microsoft-excel\&logoColor=white)
 
 This Power BI dashboard analyzes **5,000 restaurant orders across the United States**, uncovering insights into **sales performance**, **geographic trends**, **restaurant profitability**, and **entrée‑level menu patterns**.
 
@@ -90,11 +87,11 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 ## **Loan Analytics Dashboard (Mock)**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Finance-3F51B5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Finance-3F51B5?style=flat" />
   <a href="https://www.kaggle.com/datasets/nikhil1e9/loan-default">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Default%20Risk-FF9800?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Default%20Risk-FF9800?style=flat" />
 </p>
 
 **Dashboard**
@@ -134,11 +131,11 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 ## **Airlines Dashboard**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Aviation-0288D1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Aviation-0288D1?style=flat" />
   <a href="https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-4CAF50?style=flat" />
 </p>
 
 **Dashboard**
@@ -172,11 +169,11 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 ## **UK Broadband Performance Dashboard**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Telecom-9C27B0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Telecom-9C27B0?style=flat" />
   <a href="https://www.data.gov.uk/">
-    <img src="https://img.shields.io/badge/Dataset-UK%20Gov-2E7D32?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Dataset-UK%20Gov-2E7D32?style=flat" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-FF9800?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-FF9800?style=flat" />
 </p>
 
 **Dashboard**
@@ -189,10 +186,7 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 [UK_Broadband_KeyInsights.md](https://github.com/karthic180/power-bi-dashboards/blob/main/UK_Broadband_KeyInsights.md)
 
 **Dataset:**
-[UK Broadband
-
-
-Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance](https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance))
+[UK Broadband Performance Dataset](https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fbb27319e402/uk-fixed-line-broadband-performance)
 
 **Alternative Dataset:**
 [UK Broadband Performance Alternative Dataset](https://www.data.gov.uk/dataset/dfe)
@@ -201,7 +195,11 @@ Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fb
 
 ## **Key Insights Summary**
 
-* **Urban broadband speeds are nearly 3× faster** than rural speeds.
+---
+
+
+Urban broadband speeds are nearly 3× faster** than rural speeds.
+
 * **Virgin Media** leads in speed and value.
 * Some providers charge premium prices without proportional performance.
 * The **East Midlands** ranks highest for balanced cost and speed.
@@ -212,11 +210,11 @@ Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fb
 ## **LEGO Sets & Themes Dashboard**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Consumer%20Products-E91E63?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Consumer%20Products-E91E63?style=flat" />
   <a href="https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-FFC107?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-FFC107?style=flat" />
 </p>
 
 **Dashboard**
@@ -242,10 +240,10 @@ Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fb
 
 <p>
   <a href="https://www.kaggle.com/datasets/motsimaslam/national-rail-uk-train-ticket-data">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Domain-Transportation-1976D2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Transportation-1976D2?style=flat" />
+  <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-4CAF50?style=flat" />
 </p>
 
 **Dashboard**
@@ -277,8 +275,8 @@ Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fb
 ## **Golf Performance Dashboard (Mock)**
 
 <p>
-  <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Player%20Performance-03A9F4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=flat" />
+  <img src="https://img.shields.io/badge/Focus-Player%20Performance-03A9F4?style=flat" />
 </p>
 
 **Dashboard**
@@ -298,6 +296,4 @@ Performance Dataset]([https://www.data.gov.uk/dataset/dfe843da-06ca-4680-9ba0-fb
 * **Player‑to‑player comparisons** highlight competitive strengths.
 * Course difficulty significantly influences scoring outcomes.
 * Round‑level insights support coaching and performance optimisation.
-
----
 
