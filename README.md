@@ -326,8 +326,47 @@ This Power BI dashboard analyzes **5,000 restaurant orders across the United Sta
 - **Entrée descriptions provide rich text‑based insights**, enabling ingredient frequency analysis, cuisine classification, and correlations between entrée type and order value.  
 - **Monthly sales trends highlight seasonal patterns**, helping identify peak demand periods and opportunities for promotional timing.  
 
+##  Global Video Game Market Analysis Dashboard
+<p>
+<img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=for-the-badge" />
+<a href="https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings">
+<img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+</a><img src="https://img.shields.io/badge/Focus-Sales%20Performance%20%26%20Trends-03A9F4?style=for-the-badge" />
+</p>
 
----
+**Dashboard**
+Global Video Game Dashboard PDF (add your link here)
+
+**ReadMe**
+Global Video Game Dashboard README (add your link here)
+
+**Dataset**
+https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings (kaggle.com in Bing)
+
+**Business Questions Answered**
+
+-**Which platforms have historically generated the highest sales?**
+
+-**What genre trends dominate the video game market over the years?**
+
+-**How do regional preferences impact global sales?**
+
+**-Which publishers have the most successful titles in each region?**
+
+-**What is the lifecycle of a gaming platform from launch to peak sales?**
+
+**Key Insights Summary**
+
+-**North America remains the largest market, followed by Europe and Japan.**
+
+-**PlayStation 2 and Nintendo Wii show long, sustained sales lifecycles.**
+
+-**Action and Shooter genres dominate globally, while RPGs remain especially strong in Japan.**
+
+-**Electronic Arts, Activision, and Nintendo consistently lead global publisher performance.**
+
+-**Regional trends reveal distinct preferences, with Europe leaning toward Sports and Action, and Japan favouring RPGs.**
+
 #  **Tools & Technologies**
 
 - **Power BI Desktop**  
