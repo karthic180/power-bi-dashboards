@@ -9,9 +9,13 @@ A curated collection of Power BI dashboards covering multiple domains such as vi
   <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Sales%20Performance%20%26%20Trends-03A9F4?style=flat" />
-  <a href="https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
-  </a>
+  <a href="https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings"></a>
+<img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+ <img src="https://img.shields.io/badge/Analytics-Type_Time_Series-6A1B9A?style=flat" />
+<img src="https://img.shields.io/badge/Model-Star_Schema-00599C?style=flat" />
+<img src="https://img.shields.io/badge/Granularity-Platform_&_Region-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Insight-Lifecycle_Analysis-2E7D32?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [Video Game Dashboard PDF](add-your-link-here)
@@ -53,6 +57,11 @@ Sales Over Time = CALCULATE([Total Global Sales], DATESYTD(VideoGame[Year_of_Rel
   <img src="https://img.shields.io/badge/Domain-Sports-4CAF50?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Player%20Performance-03A9F4?style=flat" />
+  <img src="https://img.shields.io/badge/Analytics-Type_Performance_Tracking-2E7D32?style=flat" />
+<img src="https://img.shields.io/badge/Grain-Round_Level-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Metric-Player_Ranking-0288D1?style=flat" />
+<img src="https://img.shields.io/badge/Use_Case-Coaching_Insights-6A1B9A?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [Golf Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf)
@@ -90,6 +99,11 @@ Avg Driving Distance = AVERAGE(Golf[DrivingDistance])
   <img src="https://img.shields.io/badge/Domain-Transportation-1976D2?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Revenue%20%26%20Delays-4CAF50?style=flat" />
+  <img src="https://img.shields.io/badge/Analytics-Operational_Performance-D32F2F?style=flat" />
+<img src="https://img.shields.io/badge/KPI-On--Time_Performance-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Domain-Public_Sector-37474F?style=flat" />
+<img src="https://img.shields.io/badge/Metric-Revenue_&_Refunds-2E7D32?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [UK Rail Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
@@ -128,9 +142,13 @@ OnTime Performance = DIVIDE(CALCULATE([Total Journeys], Rail[DelayMinutes]<=0), 
   <img src="https://img.shields.io/badge/Domain-Consumer%20Products-E91E63?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Themes%20%26%20Releases-FFC107?style=flat" />
-  <a href="https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
-  </a>
+  <a href="https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database"> 
+  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Analytics-Type_Product_Portfolio-0288D1?style=flat" />
+<img src="https://img.shields.io/badge/Dimension-Time_&_Theme-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Insight-Release_Trends-2E7D32?style=flat" />
+<img src="https://img.shields.io/badge/Use_Case-Merchandising_Strategy-6A1B9A?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [LEGO Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20themes%20dash.pdf)
@@ -165,6 +183,11 @@ Average Pieces per Set = AVERAGE(LEGO[NumPieces])
   <img src="https://img.shields.io/badge/Domain-Telecom-9C27B0?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Speed%20%26%20Cost-FF9800?style=flat" />
+  <img src="https://img.shields.io/badge/Analytics-Infrastructure_Performance-D32F2F?style=flat" />
+<img src="https://img.shields.io/badge/Comparison-Urban_vs_Rural-455A64?style=flat" />
+<img src="https://img.shields.io/badge/KPI-Cost_per_Mbps-2E7D32?style=flat" />
+<img src="https://img.shields.io/badge/Domain-Telecom_Regulatory-37474F?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [UK Broadband Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
@@ -203,6 +226,11 @@ Urban vs Rural Speed Ratio = DIVIDE([Avg Download Speed], CALCULATE([Avg Downloa
   <img src="https://img.shields.io/badge/Domain-Aviation-0288D1?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Passenger%20Satisfaction-4CAF50?style=flat" />
+  <img src="https://img.shields.io/badge/Analytics-Customer_Experience-0288D1?style=flat" />
+<img src="https://img.shields.io/badge/Metric-Satisfaction_Score-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Dimension-Time_&_Route-6A1B9A?style=flat" />
+<img src="https://img.shields.io/badge/Use_Case-Service_Quality_Analysis-2E7D32?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [Airline Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
@@ -241,8 +269,12 @@ Satisfaction by Airline = CALCULATE([Avg Satisfaction Score], ALLEXCEPT(Airline,
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Default%20Risk-FF9800?style=flat" />
   <a href="https://www.kaggle.com/datasets/nikhil1e9/loan-default">
-    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
-  </a>
+    <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Analytics-Risk_Analytics-D32F2F?style=flat" />
+<img src="https://img.shields.io/badge/KPI-Default_Rate-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Metric-Revenue_at_Risk-2E7D32?style=flat" />
+<img src="https://img.shields.io/badge/Use_Case-Credit_Underwriting-6A1B9A?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [Loan Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
@@ -282,6 +314,11 @@ Revenue at Risk = SUMX(FILTER(Loan, Loan[DefaultFlag]=1), Loan[LoanAmount])
   <img src="https://img.shields.io/badge/Domain-Restaurant%20Analytics-brown?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Focus-Sales%20Performance-03A9F4?style=flat" />
+  <img src="https://img.shields.io/badge/Analytics-Commercial_Performance-0288D1?style=flat" />
+<img src="https://img.shields.io/badge/KPI-Avg_Order_Value-455A64?style=flat" />
+<img src="https://img.shields.io/badge/Dimension-Geo_&_Time-6A1B9A?style=flat" />
+<img src="https://img.shields.io/badge/Use_Case-Demand_Analysis-2E7D32?style=flat" />
+
 </p>
 
 **Dashboard PDF:** [Orders Dashboard PDF](https://github.com/karthic180/power-bi-dashboards/blob/main/OrdersDash.pdf)
