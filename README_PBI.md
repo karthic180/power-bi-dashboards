@@ -15,6 +15,16 @@ A curated collection of Power BI dashboards covering a variety of domains such a
 
 ---
 
+### global-video-game-market-analysis-dashboard
+
+<p>
+  <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat" />
+  <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Focus-Sales%20Performance%20%26%20Trends-03A9F4?style=flat" />
+  <a href="https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings"></a>
+<img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+ <img src="https://img.shields.io/badge/Analytics-Type_Time_Series-6A1B9A?style=flat" />
+
 <p>
   <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat" />
   <img src="https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
