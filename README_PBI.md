@@ -1,9 +1,19 @@
-# Power BI Dashboards Collection
+## Power BI Dashboards Collection
+A curated collection of Power BI dashboards covering a variety of domains such as video games, finance, telecom, airlines, LEGO, rail, golf, and restaurant analytics. Each dashboard includes dataset links, PDF previews, key DAX measures, business insights, and answers to important business questions, helping users explore data trends, performance metrics, and actionable insights across industries.
+---
 
-A curated collection of Power BI dashboards covering multiple domains such as video games, finance, telecom, airlines, LEGO, rail, golf, and restaurant analytics. Each dashboard includes dataset links, PDF previews, key DAX measures, business insights, and answers to important business questions, helping users explore data trends, performance metrics, and actionable insights across industries.
+## **Table of Contents**
 
+1. [Global Video Game Market Analysis Dashboard](#global-video-game-market-analysis-dashboard)
+2. [Golf Performance Dashboard](#golf-performance-dashboard)
+3. [UK Rail Dashboard](#uk-rail-dashboard)
+4. [LEGO Sets & Themes Dashboard](#lego-sets-themes-dashboard)
+5. [UK Broadband Performance Dashboard](#uk-broadband-performance-dashboard)
+6. [Airlines Dashboard](#airlines-dashboard)
+7. [Loan Analytics Dashboard](#loan-analytics-dashboard)
+8. [Orders & Sales Dashboard](#orders-sales-dashboard)
 
-## Global Video Game Market Analysis Dashboard
+---
 
 <p>
   <img src="https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat" />
