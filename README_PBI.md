@@ -13,7 +13,7 @@
    * [Global Video Game Market Analysis Dashboard](#global-video-game-market-analysis-dashboard)
    * [Golf Performance Dashboard](#golf-performance-dashboard)
    * [UK Rail Dashboard](#uk-rail-dashboard)
-   * [LEGO Sets & Themes Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/Lego_set_themes.md)
+   * [LEGO Sets & Themes Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/README_PBI.md#lego-sets--themes-dashboard)
    * [UK Broadband Performance Dashboard](#uk-broadband-performance-dashboard)
    * [Airlines Dashboard](#airlines-dashboard)
    * [Loan Analytics Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
