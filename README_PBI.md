@@ -16,7 +16,7 @@
    * [LEGO Sets & Themes Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/README_PBI.md#lego-sets--themes-dashboard)
    * [UK Broadband Performance Dashboard](#uk-broadband-performance-dashboard)
    * [Airlines Dashboard](#airlines-dashboard)
-   * [Loan Analytics Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_dash_README.md)
+   * [Loan Analytics Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/README_PBI.md#loan-analytics-dashboard)
    * [Orders & Sales Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/Ordrs_PBI_Reademe.md)
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
