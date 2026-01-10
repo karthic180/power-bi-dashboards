@@ -19,6 +19,9 @@
    * Airlines Customer Experience
    * Loan Analytics
    * Orders & Sales Performance
+2. [Datasets & Sources](#datasets--sources)
+3. [Contributing](#contributing)
+4. [License](#license)
 
 ---
 
@@ -41,10 +44,10 @@ Global sales trends, platform performance, and regional demand.
 * **Link**: [Video Game Sales with Ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 
 **Dashboard Screenshot**
-[View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_BI.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_PBI_README.md)
+[View README](#)
 
 ---
 
@@ -77,10 +80,10 @@ Revenue, punctuality, delays, and refund exposure.
 * Identified **service-level gaps** for certain train operators.
 
 **Dashboard Screenshot**
-[View Screenshot](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](NatRail_ReadMe.md)
+[View README](#)
 
 ---
 
@@ -113,10 +116,10 @@ Product mix, theme popularity, and set complexity.
 * Revealed **seasonal and market trends** in LEGO set releases.
 
 **Dashboard Screenshot**
-[View Screenshot](lego%20set%20themes%20dash.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](Lego_set_themes.md)
+[View README](#)
 
 ---
 
@@ -150,10 +153,10 @@ Speed, pricing efficiency, coverage, and provider benchmarking across the UK.
 * Delivered actionable insights into **provider competition** and **cost per Mbps**.
 
 **Dashboard Screenshot**
-[View Screenshot](BB%20PBI%20Mock.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](UKBroadband_README.md)
+[View README](#)
 
 ---
 
@@ -186,10 +189,10 @@ Passenger satisfaction and operational performance.
 * Benchmarked **satisfaction** levels across various airlines.
 
 **Dashboard Screenshot**
-[View Screenshot](Airline_MOCK.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](airline_readme.md)
+[View README](#)
 
 ---
 
@@ -197,10 +200,7 @@ Passenger satisfaction and operational performance.
 
 ![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat)
 ![Domain](https://img.shields.io/badge/Domain-Finance-lightgrey?style=flat)
-![Analytics]([https://img.shields.io](https://img.shields.io)
-
-
-/badge/Analytics-Risk%20Analytics-red?style=flat)
+![Analytics](https://img.shields.io/badge/Analytics-Risk%20Analytics-red?style=flat)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat)
 
 **Focus**
@@ -225,10 +225,11 @@ Credit risk, defaults, and portfolio exposure.
 * Provided **risk concentration analysis** to optimize loan portfolio strategies.
 
 **Dashboard Screenshot**
-[View Screenshot](loan%20dash%20pbi.pdf)
+[View Screenshot](#)
 
 **README**
-[View README](Loan_Analytics_README.md)
+[View README](#)
+
 
 ---
 
@@ -261,22 +262,10 @@ Revenue growth, product performance, and customer segmentation.
 * Analyzed **customer purchasing patterns** by region and segment.
 
 **Dashboard Screenshot**
-[View Screenshot](Ordrs_PBI_Reademe.md)
+[View Screenshot](#)
 
 **README**
-[View README](Ordrs_PBI_Reademe.md)
-
----
-
-## **Key Measures / DAX**
-
-Common techniques used across dashboards:
-
-* **Time intelligence** (YoY, MoM, Rolling Averages)
-* **Dynamic KPI cards**
-* **RankX** and **Top N analysis**
-* **Segmentation** using calculated columns
-* **Performance benchmarking**
+[View README](#)
 
 ---
 
@@ -295,16 +284,6 @@ All dashboards in this repository are built using **publicly available datasets*
 * **Retail Sales**: [Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 
 ---
-
-## **How to Use the Dashboards**
-
-1. Download the `.pbix` files
-2. Open in **Power BI Desktop**
-3. Review the data model and DAX measures
-4. Interact with slicers and drill-throughs
-
----
-
 ## **Contributing**
 
 Suggestions and improvements are welcome. Please fork the repository and submit a pull request.
