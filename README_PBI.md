@@ -180,7 +180,7 @@ on borrower characteristics.
 
 * Risk analysis by loan type.
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/loan_analytics_dashboard.pdf)
+**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
 **[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Analytics_README.md)**
 
 ---
