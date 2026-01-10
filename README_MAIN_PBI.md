@@ -20,8 +20,7 @@
    * Loan Analytics
    * Orders & Sales Performance
 2. [Datasets & Sources](#datasets--sources)
-3. [Contributing](#contributing)
-4. [License](#license)
+3. [License](#license)
 
 ---
 
@@ -284,9 +283,6 @@ All dashboards in this repository are built using **publicly available datasets*
 * **Retail Sales**: [Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 
 ---
-## **Contributing**
-
-Suggestions and improvements are welcome. Please fork the repository and submit a pull request.
 
 ---
 
