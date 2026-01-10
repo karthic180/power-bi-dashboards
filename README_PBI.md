@@ -14,19 +14,15 @@
 2. [Dashboards Overview](#dashboards-overview)
 
    * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
-   * [Golf Performance](#golf-performance-dashboard)
    * [UK Rail Performance](#uk-rail-dashboard)
    * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
-   * [UK Broadband Performance](#uk-broadband-performance-dashboard)
    * [Airlines Customer Experience](#airlines-dashboard)
    * [Loan Analytics](#loan-analytics-dashboard)
    * [Orders & Sales Performance](#orders--sales-dashboard)
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
 5. [Datasets & Links](#datasets--links)
-6. [How to Use the Dashboards](#how-to-use-the-dashboards)
-7. [Contributing](#contributing)
-8. [License](#license)
+6. [License](#license)
 
 ---
 
@@ -58,37 +54,27 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Global sales trends, platform lifecycle analysis, and regional performance.
 
-**Skills Demonstrated**:
+**Key Measures / DAX**:
 
-* Star schema data modelling
-* Time intelligence (YoY, rolling averages)
-* Market segmentation by platform and region
-* Executive KPI design
+* **Sales Growth (YoY)**: Sales growth comparison year over year across different regions and platforms.
+* **Platform Performance**: Ranking of platforms by total sales and performance metrics.
+* **Region-Based Sales Analysis**: Breakdown of sales performance by region.
 
-📊 **Dashboard Screenshot**: [View](videogame_BI.pdf)
-📄 **README**: [View](videogame_PBI_README.md)
+**Business Insights**:
 
----
+* Identifying the high-growth platforms and regions.
+* The impact of platform lifecycle stages on sales.
+* Profitability of various game genres across regions.
 
-### **Golf Performance Dashboard**
+**Business Questions Answered**:
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
-![Domain](https://img.shields.io/badge/Domain-Sports-4CAF50?style=flat)
-![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat)
-![Analytics](https://img.shields.io/badge/Analytics-Player%20Performance-0288D1?style=flat)
+* Which regions and platforms are generating the most sales?
+* How do regional preferences affect game sales?
+* What is the impact of platform lifecycle on sales?
 
-**Focus**: Player rankings, scoring consistency, and performance optimisation.
-
-**Skills Demonstrated**:
-
-* Performance benchmarking
-* Ranking and percentile analysis
-* Multi-level filtering and drill-through
-* Data storytelling for coaching decisions
-
-
-📊 **Dashboard Screenshot**: [View](golf%20dashboard%20snap.pdf)
-📄 **README**: [View](Golf_Mock_Dashboard_README.md)
+ **Dashboard Screenshot**: [View](videogame_BI.pdf)
+ **README**: [View](videogame_PBI_README.md)
+ **Dataset**: [Kaggle Video Game Sales](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 
 ---
 
@@ -101,17 +87,27 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Revenue, punctuality, delays, and refunds.
 
-**Skills Demonstrated**:
+**Key Measures / DAX**:
 
-* Operational KPI tracking
-* Delay root-cause analysis
-* Revenue vs service quality trade-offs
-* Public sector performance reporting
+* **Revenue per Passenger**: Total revenue divided by the number of passengers.
+* **Delay Impact on Satisfaction**: Measuring how delays affect overall customer satisfaction.
+* **Refund Percentage**: Percentage of tickets refunded due to delays or service failures.
 
+**Business Insights**:
 
+* Identifying bottlenecks and delay-prone routes.
+* Optimising pricing strategies for improved revenue.
+* Customer satisfaction vs operational efficiency analysis.
 
-📊 **Dashboard Screenshot**: [View](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
-📄 **README**: [View](NatRail_ReadMe.md)
+**Business Questions Answered**:
+
+* How do delays affect passenger satisfaction?
+* Which routes need attention for punctuality improvements?
+* What’s the relationship between ticket pricing and revenue?
+
+ **Dashboard Screenshot**: [View](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
+ **README**: [View](NatRail_ReadMe.md)
+ **Dataset**: [Kaggle UK Rail Data](https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides)
 
 ---
 
@@ -124,34 +120,27 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Product mix, theme popularity, and set complexity.
 
-**Key Insights**:
+**Key Measures / DAX**:
 
-* Most successful LEGO themes
-* Release trends over time
-* Complexity vs pricing indicators
+* **Set Popularity by Theme**: Ranking of LEGO themes based on the number of sets sold or created.
+* **Average Complexity vs Pricing**: Comparing set complexity to pricing tiers.
+* **Set Release Trends**: Analysis of LEGO set releases over time.
 
-📊 **Dashboard Screenshot**: [View](lego%20set%20themes%20dash.pdf)
-📄 **README**: [View](Lego_set_themes.md)
+**Business Insights**:
 
----
+* Identifying top-performing LEGO themes and sets.
+* Correlating pricing with set complexity for optimal sales strategy.
+* Analyzing release trends for future product planning.
 
-### **UK Broadband Performance Dashboard**
+**Business Questions Answered**:
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
-![Domain](https://img.shields.io/badge/Domain-Telecom-9C27B0?style=flat)
-![Dataset](https://img.shields.io/badge/Dataset-UK%20Broadband-lightgrey?style=flat)
-![Analytics](https://img.shields.io/badge/Analytics-Infrastructure%20Performance-D32F2F?style=flat)
+* Which LEGO themes and sets are the most popular?
+* How do pricing and complexity correlate with customer preferences?
+* What are the trends in LEGO set releases?
 
-**Focus**: Speed, cost efficiency, and provider comparison.
-
-**Key Insights**:
-
-* Cost per Mbps by provider
-* Urban vs rural performance gaps
-* Underperforming premium providers
-
-📊 **Dashboard Screenshot**: [View](BB%20PBI%20Mock.pdf)
-📄 **README**: [View](UKBroadband_README.md)
+ **Dashboard Screenshot**: [View](lego%20set%20themes%20dash.pdf)
+ **README**: [View](Lego_set_themes.md)
+ **Dataset**: [Kaggle LEGO Data](https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database)
 
 ---
 
@@ -164,14 +153,27 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Passenger satisfaction and operational performance.
 
-**Key Insights**:
+**Key Measures / DAX**:
 
-* Key drivers of satisfaction
-* Delay impact on customer scores
-* Airline-level benchmarking
+* **Passenger Satisfaction**: Based on delays and flight experience ratings.
+* **Operational Performance**: On-time performance of various airlines and flight routes.
+* **Customer Experience by Airline**: Ranking airlines based on customer satisfaction scores.
 
-📊 **Dashboard Screenshot**: [View](Airline_MOCK.pdf)
-📄 **README**: [View](airline_readme.md)
+**Business Insights**:
+
+* Key drivers of passenger satisfaction.
+* Delay impact on customer scores.
+* Airline-level performance benchmarking.
+
+**Business Questions Answered**:
+
+* Which airlines provide the best customer experience?
+* How do delays affect passenger satisfaction?
+* What operational factors contribute to poor customer ratings?
+
+**Dashboard Screenshot**: [View](Airline_MOCK.pdf)
+ **README**: [View](airline_readme.md)
+ **Dataset**: [Kaggle Airline Data](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
 ---
 
@@ -184,14 +186,31 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Credit risk, defaults, and portfolio exposure.
 
-**Key Insights**:
+**Key Measures / DAX**:
 
-* Default rates by borrower segment
-* Risk concentration analysis
-* Loan performance over time
+* **Default Rates by Borrower Segment**: Analyzing default rates based on borrower characteristics.
+* **Risk Concentration**: Identifying loan portfolios with the highest risk exposure.
+* **Loan Performance Over Time**: Analyzing loan repayment performance and defaults over time.
 
-📊 **Dashboard Screenshot**: [View](loan%20dash%20pbi.pdf)
-📄 **README**: [View](Loan_Analytics_README.md)
+**Business Insights**:
+
+* Identifying high-risk borrowers and segments.
+* Understanding loan performance trends over time.
+* Optimizing risk management strategies.
+
+**Business Questions Answered**:
+
+*
+
+
+Which borrower segments are most likely to default?
+
+* What is the overall risk exposure of the loan portfolio?
+* How does loan performance vary over time?
+
+ **Dashboard Screenshot**: [View](loan%20dash%20pbi.pdf)
+ **README**: [View](Loan_Analytics_README.md)
+ **Dataset**: [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 
 ---
 
@@ -204,20 +223,31 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Focus**: Revenue growth, product performance, and customer segmentation.
 
-**Key Insights**:
+**Key Measures / DAX**:
 
-* Seasonal sales patterns
-* High-margin vs high-volume products
-* Customer purchasing behaviour
+* **Sales Performance by Product**: Breakdown of sales by product category.
+* **Seasonal Sales Trends**: Analysis of sales trends during specific times of the year.
+* **Customer Segmentation**: Categorization of customers based on purchasing behavior.
 
-📊 **Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
-📄 **README**: [View](Ordrs_PBI_Reademe.md)
+**Business Insights**:
+
+* Seasonal patterns in sales.
+* High-margin vs high-volume products.
+* Identifying key customer segments.
+
+**Business Questions Answered**:
+
+* What are the top-selling products?
+* How do seasonal trends affect sales performance?
+* Which customer segments are driving the highest revenue?
+
+ **Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
+ **README**: [View](Ordrs_PBI_Reademe.md)
+ **Dataset**: [Kaggle Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ---
 
 ## **Key Measures / DAX**
-
-Common techniques used across dashboards:
 
 * Time intelligence (YoY, MoM, Rolling Averages)
 * Dynamic KPI cards
@@ -243,31 +273,17 @@ These dashboards are designed to answer real-world business questions such as:
 All datasets are publicly available:
 
 * Video Games: [https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
-* Golf (PGA Tour): [https://www.kaggle.com/datasets/jayrav13/pga-tour-data-2010-2018](https://www.kaggle.com/datasets/jayrav13/pga-tour-data-2010-2018)
 * UK Rail: [https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides](https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides)
-* LEGO: [https://www.kaggle.com/datasets/rtatman/lego-database](https://www.kaggle.com/datasets/rtatman/lego-database)
-* Broadband: [https://www.kaggle.com/datasets/nhs/broadband-speed-and-prices](https://www.kaggle.com/datasets/nhs/broadband-speed-and-prices)
+* LEGO: [https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database](https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database)
 * Airlines: [https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 * Loans: [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 * Retail Sales: [https://www.kaggle.com/datasets/vivek468/superstore-dataset-final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-
----
-
-## **How to Use the Dashboards**
-
-1. Download the `.pbix` files
-2. Open in **Power BI Desktop**
-3. Review the data model and DAX measures
-4. Interact with slicers and drill-throughs
-
----
-
-## **Contributing**
-
-Suggestions and improvements are welcome. Please fork the repository and submit a pull request.
+* UK Broadband: [https://www.ofcom.org.uk/about-ofcom/our-research/opendata](https://www.ofcom.org.uk/about-ofcom/our-research/opendata)
 
 ---
 
 ## **License**
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute with attribution.
+
+---
