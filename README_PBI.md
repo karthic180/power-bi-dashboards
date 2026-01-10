@@ -1,6 +1,9 @@
 # **Power BI Dashboards Collection**
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
+![DAX](https://img.shields.io/badge/Language-DAX-blue?style=flat)
+![SQL](https://img.shields.io/badge/Data-SQL-lightgrey?style=flat)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ---
@@ -10,14 +13,14 @@
 1. [Overview](#overview)
 2. [Dashboards Overview](#dashboards-overview)
 
-   * [Global Video Game Market Analysis Dashboard](#global-video-game-market-analysis-dashboard)
-   * [Golf Performance Dashboard](#golf-performance-dashboard)
-   * [UK Rail Dashboard](#uk-rail-dashboard)
-   * [LEGO Sets & Themes Dashboard](#lego-sets--themes-dashboard)
-   * [UK Broadband Performance Dashboard](#uk-broadband-performance-dashboard)
-   * [Airlines Dashboard](#airlines-dashboard)
-   * [Loan Analytics Dashboard](#loan-analytics-dashboard)
-   * [Orders & Sales Dashboard](#orders--sales-dashboard)
+   * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
+   * [Golf Performance](#golf-performance-dashboard)
+   * [UK Rail Performance](#uk-rail-dashboard)
+   * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
+   * [UK Broadband Performance](#uk-broadband-performance-dashboard)
+   * [Airlines Customer Experience](#airlines-dashboard)
+   * [Loan Analytics](#loan-analytics-dashboard)
+   * [Orders & Sales Performance](#orders--sales-dashboard)
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
 5. [Datasets & Links](#datasets--links)
@@ -29,23 +32,20 @@
 
 ## **Overview**
 
-Welcome to the **Power BI Dashboards Collection** repository! This collection showcases a diverse range of dashboards built using Power BI, designed to analyze and visualize data from various industries such as **video games**, **sports**, **transportation**, **consumer products**, **telecom**, **finance**, and more.
+Welcome to the **Power BI Dashboards Collection** repository. This portfolio showcases end-to-end **business intelligence projects** built using **Power BI**, with a strong focus on:
 
-Each dashboard contains **key metrics**, **insights**, and **business questions** to help users understand trends and performance in each domain.
+* Commercial and operational analytics
+* KPI design and storytelling
+* Data modelling and DAX
+* Stakeholder-ready dashboards
 
-This repository includes:
-
-* **Power BI Dashboards**: Explore, analyze, and interact with the dashboards.
-* **Key DAX Measures**: Metrics and formulas used in each dashboard.
-* **Business Insights**: Extract actionable insights from the data.
-* **Dataset Links**: Access datasets used for each dashboard to understand and replicate the analysis.
-* **Dashboard Screenshots**: Visual representations of each dashboard.
+The dashboards span multiple domains including **gaming, sports, transport, retail, telecom, aviation, and finance**, demonstrating versatility across industries.
 
 ---
 
 ## **Dashboards Overview**
 
-Below is a summary of the key dashboards in the collection. Each dashboard includes badges for quick identification, along with links to the **README** and **dashboard screenshots**.
+Each dashboard includes dataset badges, a short business context, key insights, **skills demonstrated**, and links to screenshots and documentation.
 
 ---
 
@@ -53,18 +53,20 @@ Below is a summary of the key dashboards in the collection. Each dashboard inclu
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Video%20Games-4CAF50?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Sales%20Performance-0288D1?style=flat)
 
-This dashboard provides a comprehensive analysis of the **global video game market**, including sales trends, platform performance, and regional preferences. It uses the **Video Game Sales with Ratings** dataset from Kaggle.
+**Focus**: Global sales trends, platform lifecycle analysis, and regional performance.
 
-**Key Insights**:
+**Skills Demonstrated**:
 
-* Top platforms and publishers based on global sales.
-* Sales trends across regions (North America, Europe, Japan).
-* Platform lifecycle analysis.
+* Star schema data modelling
+* Time intelligence (YoY, rolling averages)
+* Market segmentation by platform and region
+* Executive KPI design
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_BI.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_PBI_README.md)**
+📊 **Dashboard Screenshot**: [View](videogame_BI.pdf)
+📄 **README**: [View](videogame_PBI_README.md)
 
 ---
 
@@ -72,18 +74,21 @@ This dashboard provides a comprehensive analysis of the **global video game mark
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Sports-4CAF50?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Player%20Performance-0288D1?style=flat)
 
-A dashboard that analyzes **golf performance**, tracking player rankings, round scores, and driving distances, based on the **golf driver sales** dataset.
+**Focus**: Player rankings, scoring consistency, and performance optimisation.
 
-**Key Insights**:
+**Skills Demonstrated**:
 
-* Trends in player performance across multiple rounds.
-* Performance metrics for courses and players.
-* Strategy optimization based on performance data.
+* Performance benchmarking
+* Ranking and percentile analysis
+* Multi-level filtering and drill-through
+* Data storytelling for coaching decisions
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/golf%20dashboard%20snap.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/Golf_Mock_Dashboard_README.md)**
+
+📊 **Dashboard Screenshot**: [View](golf%20dashboard%20snap.pdf)
+📄 **README**: [View](Golf_Mock_Dashboard_README.md)
 
 ---
 
@@ -91,18 +96,22 @@ A dashboard that analyzes **golf performance**, tracking player rankings, round 
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Transportation-1976D2?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-UK%20Rail-lightgrey?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Operational%20Performance-D32F2F?style=flat)
 
-An analysis of **UK rail operations**, focusing on **revenue**, **ticket sales**, and **on-time performance**.
+**Focus**: Revenue, punctuality, delays, and refunds.
 
-**Key Insights**:
+**Skills Demonstrated**:
 
-* Revenue breakdown and performance by station.
-* On-time performance and delay causes.
-* Impact of refund rates on customer experience.
+* Operational KPI tracking
+* Delay root-cause analysis
+* Revenue vs service quality trade-offs
+* Public sector performance reporting
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)**
+
+
+📊 **Dashboard Screenshot**: [View](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
+📄 **README**: [View](NatRail_ReadMe.md)
 
 ---
 
@@ -110,18 +119,19 @@ An analysis of **UK rail operations**, focusing on **revenue**, **ticket sales**
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Consumer%20Products-E91E63?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Rebrickable-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Product%20Portfolio-0288D1?style=flat)
 
-This dashboard tracks **LEGO set releases**, analyzing themes, popularity, and set complexity.
+**Focus**: Product mix, theme popularity, and set complexity.
 
 **Key Insights**:
 
-* Most popular LEGO themes.
-* Trends in the number of releases over time.
-* Insights into set complexity and pieces per set.
+* Most successful LEGO themes
+* Release trends over time
+* Complexity vs pricing indicators
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20themes%20dash.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/Lego_set_themes.md)**
+📊 **Dashboard Screenshot**: [View](lego%20set%20themes%20dash.pdf)
+📄 **README**: [View](Lego_set_themes.md)
 
 ---
 
@@ -129,18 +139,19 @@ This dashboard tracks **LEGO set releases**, analyzing themes, popularity, and s
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Telecom-9C27B0?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-UK%20Broadband-lightgrey?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Infrastructure%20Performance-D32F2F?style=flat)
 
-A dashboard focusing on **UK broadband performance**, including **download/upload speed** and **cost per Mbps**.
+**Focus**: Speed, cost efficiency, and provider comparison.
 
 **Key Insights**:
 
-* Comparison of broadband providers’ performance.
-* Urban vs. rural broadband performance analysis.
-* Providers charging premium prices without proportional performance.
+* Cost per Mbps by provider
+* Urban vs rural performance gaps
+* Underperforming premium providers
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/BB%20PBI%20Mock.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/UKBroadband_README.md)**
+📊 **Dashboard Screenshot**: [View](BB%20PBI%20Mock.pdf)
+📄 **README**: [View](UKBroadband_README.md)
 
 ---
 
@@ -148,18 +159,19 @@ A dashboard focusing on **UK broadband performance**, including **download/uploa
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Aviation-0288D1?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Customer%20Experience-0288D1?style=flat)
 
-This dashboard provides insights into **airline performance**, focusing on **passenger satisfaction** and **flight volumes**.
+**Focus**: Passenger satisfaction and operational performance.
 
 **Key Insights**:
 
-* Satisfaction trends by airline and route.
-* The impact of punctuality and in-flight service on customer satisfaction.
-* Regional performance analysis.
+* Key drivers of satisfaction
+* Delay impact on customer scores
+* Airline-level benchmarking
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)**
+📊 **Dashboard Screenshot**: [View](Airline_MOCK.pdf)
+📄 **README**: [View](airline_readme.md)
 
 ---
 
@@ -167,21 +179,19 @@ This dashboard provides insights into **airline performance**, focusing on **pas
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Finance-3F51B5?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Lending%20Club-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Risk%20Analytics-D32F2F?style=flat)
 
-A dashboard focusing on **loan defaults** and **portfolio risk**, analyzing loan characteristics and borrower behavior.
+**Focus**: Credit risk, defaults, and portfolio exposure.
 
 **Key Insights**:
 
-* Default rates based
+* Default rates by borrower segment
+* Risk concentration analysis
+* Loan performance over time
 
-
-on borrower characteristics.
-
-* Risk analysis by loan type.
-
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Analytics_README.md)**
+📊 **Dashboard Screenshot**: [View](loan%20dash%20pbi.pdf)
+📄 **README**: [View](Loan_Analytics_README.md)
 
 ---
 
@@ -189,16 +199,75 @@ on borrower characteristics.
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Retail-0288D1?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Superstore-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Sales%20Performance-0288D1?style=flat)
 
-This dashboard focuses on **orders and sales performance**, analyzing key metrics like **sales trends**, **order volume**, and **customer segmentation**. It helps identify top-performing products, customer purchasing behavior, and sales growth opportunities.
+**Focus**: Revenue growth, product performance, and customer segmentation.
 
 **Key Insights**:
 
-* Sales trends over time, with seasonality analysis.
-* Performance of products and categories by revenue.
-* Customer segmentation based on purchasing patterns.
+* Seasonal sales patterns
+* High-margin vs high-volume products
+* Customer purchasing behaviour
 
-**Dashboard Screenshot**: [View Screenshot](https://github.com/karthic180/power-bi-dashboards/blob/main/Ordrs_PBI_Reademe.md)
-**[View README](https://github.com/karthic180/power-bi-dashboards/blob/main/Ordrs_PBI_Reademe.md)**
+📊 **Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
+📄 **README**: [View](Ordrs_PBI_Reademe.md)
 
+---
+
+## **Key Measures / DAX**
+
+Common techniques used across dashboards:
+
+* Time intelligence (YoY, MoM, Rolling Averages)
+* Dynamic KPI cards
+* RankX and Top N analysis
+* Segmentation using calculated columns
+* Performance benchmarking
+
+---
+
+## **Business Insights**
+
+These dashboards are designed to answer real-world business questions such as:
+
+* Which products, customers, or regions drive profitability?
+* Where are operational inefficiencies occurring?
+* How does customer experience impact revenue and retention?
+* Which segments represent the highest risk or opportunity?
+
+---
+
+## **Datasets & Links**
+
+All datasets are publicly available:
+
+* Video Games: [https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+* Golf (PGA Tour): [https://www.kaggle.com/datasets/jayrav13/pga-tour-data-2010-2018](https://www.kaggle.com/datasets/jayrav13/pga-tour-data-2010-2018)
+* UK Rail: [https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides](https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides)
+* LEGO: [https://www.kaggle.com/datasets/rtatman/lego-database](https://www.kaggle.com/datasets/rtatman/lego-database)
+* Broadband: [https://www.kaggle.com/datasets/nhs/broadband-speed-and-prices](https://www.kaggle.com/datasets/nhs/broadband-speed-and-prices)
+* Airlines: [https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+* Loans: [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+* Retail Sales: [https://www.kaggle.com/datasets/vivek468/superstore-dataset-final](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+---
+
+## **How to Use the Dashboards**
+
+1. Download the `.pbix` files
+2. Open in **Power BI Desktop**
+3. Review the data model and DAX measures
+4. Interact with slicers and drill-throughs
+
+---
+
+## **Contributing**
+
+Suggestions and improvements are welcome. Please fork the repository and submit a pull request.
+
+---
+
+## **License**
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute with attribution.
