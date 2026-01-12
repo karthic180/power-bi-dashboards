@@ -240,7 +240,7 @@ Which borrower segments are most likely to default?
 * How do seasonal trends affect sales performance?
 * Which customer segments are driving the highest revenue?
 
- **Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
+ **Dashboard Screenshot**: [View](OrdersDash.pdf)
  **README**: [View](Ordrs_PBI_Reademe.md)
  **Dataset**: [Kaggle Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
