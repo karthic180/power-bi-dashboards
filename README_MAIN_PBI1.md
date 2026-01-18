@@ -214,10 +214,9 @@ Which borrower segments are most likely to default?
 ---
 
 ### **Orders & Sales Dashboard**
-
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Retail-0288D1?style=flat)
-![Dataset](https://img.shields.io/badge/Dataset-Superstore-blue?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-AdventureWorks-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Sales%20Performance-0288D1?style=flat)
 
 **Focus**: Revenue growth, product performance, and customer segmentation.
@@ -243,6 +242,44 @@ Which borrower segments are most likely to default?
  **Dashboard Screenshot**: [View](OrdersDash.pdf)
  **README**: [View](Ordrs_PBI_Reademe.md)
  **Dataset**: [Kaggle Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+---
+## AdventureWorks Sales & Commercial Analytics
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Domain](https://img.shields.io/badge/Domain-Retail-0288D1?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-AdventureWorks-blue?style=flat)
+![Analytics](https://img.shields.io/badge/Analytics-Sales%20Performance-0288D1?style=flat)
+
+
+
+## Focus
+End‑to‑end commercial analytics across Internet and Reseller sales, covering products, customers, and geographic territories using a scalable semantic layer.
+
+## **Key Measures / DAX**
+Total Sales & Sales YTD
+
+Year‑over‑Year Growth %
+
+Average Order Value (AOV)
+
+Customer Lifetime Value
+
+Territory Contribution %
+
+## Business Questions Answered
+Which channels and territories drive growth
+
+Which products and customers generate the most value
+
+**Dataset**  
+https://learn.microsoft.com/sql/samples/adventureworks-install-configure
+
+**Project README:**  
+https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md
+
+**Project Screnshots:**  
+https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf
+
 
 ---
 
