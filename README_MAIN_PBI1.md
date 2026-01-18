@@ -19,6 +19,8 @@
    * [Airlines Customer Experience](#airlines-dashboard)
    * [Loan Analytics](#loan-analytics-dashboard)
    * [Orders & Sales Performance](#orders--sales-dashboard)
+   *  [Banking](https://github.com/karthic180/power-bi-dashboards#banking)
+
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
 5. [License](#license)
@@ -304,6 +306,37 @@ These dashboards are designed to answer real-world business questions such as:
 * Which segments represent the highest risk or opportunity?
 
 ---
+
+##  Banking
+
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
+![Domain](https://img.shields.io/badge/Domain-Banking%20%26%20Financial%20Services-1565C0?style=flat)
+![Analytics](https://img.shields.io/badge/Analytics-Churn%20%7C%20Campaign%20Analytics-6A1B9A?style=flat)
+![Dataset](https://img.shields.io/badge/Dataset-Maven%20Analytics-lightgrey?style=flat)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success?style=flat)
+
+**Focus:**
+End-to-end banking analytics using Power BI, analysing **customer churn, transactions, loyalty programmes, and marketing campaigns** through a scalable semantic layer.
+
+**Key Insights:**
+
+* A small customer segment drives a disproportionate share of revenue
+* Premium programmes significantly outperform core tiers
+* Campaign ROI varies widely by channel and campaign type
+* Inactive customers exhibit materially higher churn risk
+
+**Skills Demonstrated:**
+Power BI · DAX · Star Schema Modelling · Time Intelligence · Commercial Analytics · Stakeholder Reporting
+
+ **Project README:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md](https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md)
+
+ **Dataset:**
+Maven Analytics – Bank Customer Churn
+[https://mavenanalytics.io/data-playground/bank-customer-churn](https://mavenanalytics.io/data-playground/bank-customer-churn)
+
+---
+
 
 ## **License**
 
