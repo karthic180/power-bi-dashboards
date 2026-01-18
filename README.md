@@ -273,8 +273,8 @@ Which channels and territories drive growth
 
 Which products and customers generate the most value
 
-**Dataset**  
-https://learn.microsoft.com/sql/samples/adventureworks-install-configure
+## Datasets
+https://learn.microsoft.com/en-us/dax/dax-sample-model https://github.com/richhuwtaylor/adventure-works
 
 **Project README:**  
 https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md
