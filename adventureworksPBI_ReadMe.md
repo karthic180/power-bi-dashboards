@@ -1,6 +1,6 @@
 # AdventureWorks Power BI Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 This project showcases an **end-to-end Power BI solution built using the AdventureWorks dataset**, designed to demonstrate enterprise-style **data modelling, DAX proficiency, and business-focused reporting**.
 
@@ -8,7 +8,7 @@ The report simulates a real-world commercial analytics use case, covering **Inte
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Build a clean **star-schema data model** with multiple fact tables
 * Create a reusable **semantic layer** using DAX measures
@@ -17,7 +17,7 @@ The report simulates a real-world commercial analytics use case, covering **Inte
 
 ---
 
-## 🧱 Data Model
+##  Data Model
 
 ### Fact Tables
 
@@ -46,9 +46,9 @@ This approach ensures **performance, clarity, and scalability**.
 
 ---
 
-## 📄 Report Pages
+##  Report Pages
 
-### 1️⃣ Executive Overview
+###  Executive Overview
 
 **Audience:** Senior stakeholders
 
@@ -56,7 +56,7 @@ This approach ensures **performance, clarity, and scalability**.
 * Sales trends over time
 * Internet vs Reseller sales contribution
 
-### 2️⃣ Sales Performance
+###  Sales Performance
 
 **Audience:** Sales & Commercial teams
 
@@ -64,7 +64,7 @@ This approach ensures **performance, clarity, and scalability**.
 * Top-performing products
 * Monthly performance trends
 
-### 3️⃣ Product Performance
+###  Product Performance
 
 **Audience:** Product & Merchandising teams
 
@@ -72,7 +72,7 @@ This approach ensures **performance, clarity, and scalability**.
 * Top and bottom products by sales
 * Contribution to category sales
 
-### 4️⃣ Customer Analytics
+###  Customer Analytics
 
 **Audience:** Marketing & CRM
 
@@ -80,7 +80,7 @@ This approach ensures **performance, clarity, and scalability**.
 * Customer lifetime value analysis
 * High-value customer identification
 
-### 5️⃣ Geography & Territory
+###  Geography & Territory
 
 **Audience:** Regional managers
 
@@ -106,7 +106,7 @@ All business logic is implemented as **measures rather than calculated columns**
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 * Internet and Reseller channels show distinct seasonal patterns
 * A small proportion of customers contribute a significant share of total revenue
@@ -115,7 +115,7 @@ All business logic is implemented as **measures rather than calculated columns**
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 * **Power BI Desktop**
 * **DAX** (Time Intelligence, Context Transition, Ranking)
@@ -124,7 +124,7 @@ All business logic is implemented as **measures rather than calculated columns**
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Download the `.pbix` file from this repository (https://github.com/karthic180/power-bi-dashboards/blob/main/adad.pbix) 
 2. Open in Power BI Desktop
@@ -134,7 +134,7 @@ All business logic is implemented as **measures rather than calculated columns**
 ## PDF ScreenShots
 (https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf)
 
-## 📈 Skills Demonstrated
+##  Skills Demonstrated
 
 * Enterprise data modelling
 * Advanced DAX and time intelligence
