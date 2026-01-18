@@ -126,11 +126,13 @@ All business logic is implemented as **measures rather than calculated columns**
 
 ## 🚀 How to Use
 
-1. Download the `.pbix` file from this repository
+1. Download the `.pbix` file from this repository (https://github.com/karthic180/power-bi-dashboards/blob/main/adad.pbix) 
 2. Open in Power BI Desktop
 3. Explore the report using slicers for Date, Territory, Product, and Currency
 
 ---
+## PDF ScreenShots
+(https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf)
 
 ## 📈 Skills Demonstrated
 
