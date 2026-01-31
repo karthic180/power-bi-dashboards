@@ -9,21 +9,19 @@
 ---
 
 ## **Table of Contents**
-
-1. [Overview](#overview)
-2. [Dashboards Overview](#dashboards-overview)
-
-   * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
-   * [UK Rail Performance](#uk-rail-dashboard)
-   * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
-   * [Airlines Customer Experience](#airlines-dashboard)
-   * [Loan Analytics](#loan-analytics-dashboard)
-   * [Orders & Sales Performance](#orders--sales-dashboard)
-   *  [Banking](https://github.com/karthic180/power-bi-dashboards#banking)
-
-3. [Key Measures / DAX](#key-measures--dax)
-4. [Business Insights](#business-insights)
-5. [License](#license)
+1. [Overview](#overview)  
+2. [Dashboards Overview](#dashboards-overview)  
+   * [Global Video Game Market Analysis Dashboard](#global-video-game-market-analysis-dashboard)  
+   * [UK Rail Dashboard](#uk-rail-dashboard)  
+   * [LEGO Sets & Themes Dashboard](#lego-sets--themes-dashboard)  
+   * [Airlines Dashboard](#airlines-dashboard)  
+   * [Loan Analytics Dashboard](#loan-analytics-dashboard)  
+   * [Orders & Sales Dashboard](#orders--sales-dashboard)  
+   * [AdventureWorks Sales & Commercial Analytics](#adventureworks-sales--commercial-analytics)  
+   * [Banking Dashboard](#banking)  
+3. [Key Measures / DAX](#key-measures--dax)  
+4. [Business Insights](#business-insights)  
+5 [Video Game Sales Analytics – Fabric & Power BI](https://github.com/karthic180/power-bi-dashboards/edit/main/README_MAIN_PBI1.md#video-game-sales--microsoft-fabric)  
 
 ---
 
@@ -334,10 +332,73 @@ Power BI · DAX · Star Schema Modelling · Time Intelligence · Commercial Anal
  **Dataset:**
 Maven Analytics – Bank Customer Churn
 [https://mavenanalytics.io/data-playground/bank-customer-churn](https://mavenanalytics.io/data-playground/bank-customer-churn)
-
 ---
+## **Video Game Sales – Microsoft Fabric**
 
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)  
+[![Fabric Dataflow](https://img.shields.io/badge/Fabric%20Dataflow-0078D4?style=flat&logo=microsoft&logoColor=white)](https://learn.microsoft.com/fabric/)  
+[![Lakehouse](https://img.shields.io/badge/Lakehouse-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://learn.microsoft.com/fabric/)
 
-## **License**
+This project demonstrates **end-to-end analytics** using **Microsoft Fabric Dataflow Gen 2**, **Lakehouse**, and **Power BI**.  
+The workflow transforms raw Excel data into clean tables, then builds dashboards with **DAX, KPIs, and interactive visuals**.
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute with attribution.
+###  Dataset
+- Source: Kaggle – [Video Game Sales with Ratings](https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database)  
+- Format: Excel (`.xlsx`)  
+- Key columns: `Name`, `Platform`, `Publisher`, `Year_of_Release`, `Genre`, `Global_Sales`, `NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`
+
+###  Tools & Technologies
+**Primary Stack**: Power BI | Fabric Dataflow | Lakehouse  
+**Supporting Tools**: SQL (PostgreSQL / T-SQL) | Power Query / M | DAX  
+
+###  Dataflow Process (Single Node)
+1. **Source:** Upload raw Excel file to Fabric  
+2. **Transformations:**  
+   - Remove duplicates  
+   - Fill / replace nulls (`0` numeric, `"Unknown"` text)  
+   - Change column types (Text, Whole Number, Decimal)  
+   - Optional calculated columns: `Revenue = Global_Sales * 1_000_000`  
+3. **Output:** Lakehouse table (`FactSales`)  
+4. **Schedule:** Daily / weekly refreshes  
+5. **Monitor:** Check run history for success/errors  
+
+> All ETL done inside **one Dataflow node**.
+
+###  Power BI Dashboard
+
+**Key Visuals:**  
+- Total Global Sales over time  
+- Sales by Platform, Genre, Publisher  
+- Market share by region  
+- Top-selling games / platforms  
+
+**DAX Measures Examples:**
+
+```DAX
+-- Total Global Sales
+Total_Global_Sales = SUM(FactSales[Global_Sales])
+
+-- Revenue in USD
+Total_Revenue = SUM(FactSales[Revenue])
+
+-- Average Sales per Game
+Avg_Global_Sales = AVERAGE(FactSales[Global_Sales])
+````
+
+###  How to Reproduce
+
+1. Upload raw Excel to Fabric
+2. Create Dataflow Gen 2 node → apply cleaning, deduplication, type changes, calculated columns
+3. Output → Lakehouse table
+4. Open Power BI Desktop / Pro → connect to Lakehouse
+5. Build dashboards using DAX and KPIs
+6. Optional: schedule refreshes
+
+### Key Takeaways
+
+* Single Dataflow node handles full ETL
+* Lakehouse stores clean, reusable data
+* Power BI dashboards leverage DAX, KPIs, and visuals
+* Scalable workflow for other datasets
+
+```
