@@ -399,5 +399,3 @@ Avg_Global_Sales = AVERAGE(FactSales[Global_Sales])
 * Lakehouse stores clean, reusable data
 * Power BI dashboards leverage DAX, KPIs, and visuals
 * Scalable workflow for other datasets
-
-```
