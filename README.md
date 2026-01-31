@@ -1,10 +1,9 @@
 # **Power BI Dashboards Collection**
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/Language-DAX-blue?style=flat)
 ![SQL](https://img.shields.io/badge/Data-SQL-lightgrey?style=flat)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success?style=flat)
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ---
 
@@ -12,18 +11,17 @@
 
 1. [Overview](#overview)
 2. [Dashboards Overview](#dashboards-overview)
-* [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
-* [UK Rail Performance](#uk-rail-dashboard)
-* [LEGO Sets & Themes](#lego-sets--themes-dashboard)
-* [Airlines Customer Experience](#airlines-dashboard)
-* [Loan Analytics](#loan-analytics-dashboard)
-* [Orders & Sales Performance](#orders--sales-dashboard)
-* [AdventureWorks](#adventureworks)
-* [Banking](https://github.com/karthic180/power-bi-dashboards#banking)
-
+   * [Video Game Sales – Microsoft Fabric](#video-game-sales--microsoft-fabric)
+   * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
+   * [UK Rail Performance](#uk-rail-dashboard)
+   * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
+   * [Airlines Customer Experience](#airlines-dashboard)
+   * [Loan Analytics](#loan-analytics-dashboard)
+   * [Orders & Sales Performance](#orders--sales-dashboard)
+   * [AdventureWorks](#adventureworks)
+   * [Banking](#banking)
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
-5. [License](#license)
 
 ---
 
@@ -31,10 +29,10 @@
 
 Welcome to the **Power BI Dashboards Collection** repository. This portfolio showcases end-to-end **business intelligence projects** built using **Power BI**, with a strong focus on:
 
-* Commercial and operational analytics
-* KPI design and storytelling
-* Data modelling and DAX
-* Stakeholder-ready dashboards
+* Commercial and operational analytics  
+* KPI design and storytelling  
+* Data modelling and DAX  
+* Stakeholder-ready dashboards  
 
 The dashboards span multiple domains including **gaming, sports, transport, retail, telecom, aviation, and finance**, demonstrating versatility across industries.
 
@@ -43,6 +41,66 @@ The dashboards span multiple domains including **gaming, sports, transport, reta
 ## **Dashboards Overview**
 
 Each dashboard includes dataset badges, a short business context, key insights, **skills demonstrated**, and links to screenshots and documentation.
+
+---
+
+### **Video Game Sales – Microsoft Fabric**
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)  
+[![Fabric Dataflow](https://img.shields.io/badge/Fabric%20Dataflow-0078D4?style=flat&logo=microsoft&logoColor=white)](https://learn.microsoft.com/fabric/)  
+[![Lakehouse](https://img.shields.io/badge/Lakehouse-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://learn.microsoft.com/fabric/)
+
+**Focus**: End-to-end analytics using **Microsoft Fabric Dataflow Gen 2**, **Lakehouse**, and **Power BI**. Transform raw Excel data into clean tables, then build dashboards with **DAX, KPIs, and interactive visuals**.
+
+**Dataset**: [Kaggle Video Game Sales with Ratings](https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database) (`.xlsx`)  
+**Key Columns**: `Name`, `Platform`, `Publisher`, `Year_of_Release`, `Genre`, `Global_Sales`, `NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`
+
+**Dataflow Process (Single Node):**
+1. **Source:** Upload raw Excel to Fabric  
+2. **Transformations:**  
+   - Remove duplicates  
+   - Fill / replace nulls (`0` numeric, `"Unknown"` text)  
+   - Change column types (Text, Whole Number, Decimal)  
+   - Optional calculated columns: `Revenue = Global_Sales * 1_000_000`  
+3. **Output:** Lakehouse table (`FactSales`)  
+4. **Schedule:** Daily / weekly refreshes  
+5. **Monitor:** Check run history for success/errors  
+
+> All ETL done inside **one Dataflow node**.
+
+**Power BI Dashboard:**
+- Total Global Sales over time  
+- Sales by Platform, Genre, Publisher  
+- Market share by region  
+- Top-selling games / platforms  
+
+**DAX Measures Examples:**
+```DAX
+-- Total Global Sales
+Total_Global_Sales = SUM(FactSales[Global_Sales])
+
+-- Revenue in USD
+Total_Revenue = SUM(FactSales[Revenue])
+
+-- Average Sales per Game
+Avg_Global_Sales = AVERAGE(FactSales[Global_Sales])
+````
+
+**How to Reproduce:**
+
+1. Upload raw Excel to Fabric
+2. Create Dataflow Gen 2 node → apply cleaning, deduplication, type changes, calculated columns
+3. Output → Lakehouse table
+4. Open Power BI Desktop / Pro → connect to Lakehouse
+5. Build dashboards using DAX and KPIs
+6. Optional: schedule refreshes
+
+**Key Takeaways:**
+
+* Single Dataflow node handles full ETL
+* Lakehouse stores clean, reusable data
+* Power BI dashboards leverage DAX, KPIs, and visuals
+* Scalable workflow for other datasets
 
 ---
 
@@ -63,9 +121,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Business Insights**:
 
-* Identifying the high-growth platforms and regions.
-* The impact of platform lifecycle stages on sales.
-* Profitability of various game genres across regions.
+* Identifying high-growth platforms and regions
+* The impact of platform lifecycle stages on sales
+* Profitability of various game genres across regions
 
 **Business Questions Answered**:
 
@@ -73,9 +131,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 * How do regional preferences affect game sales?
 * What is the impact of platform lifecycle on sales?
 
- **Dashboard Screenshot**: [View](videogame_BI.pdf)
- **README**: [View](videogame_PBI_README.md)
- **Dataset**: [Kaggle Video Game Sales](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+**Dashboard Screenshot**: [View](videogame_BI.pdf)
+**README**: [View](videogame_PBI_README.md)
+**Dataset**: [Kaggle Video Game Sales](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
 
 ---
 
@@ -96,9 +154,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Business Insights**:
 
-* Identifying bottlenecks and delay-prone routes.
-* Optimising pricing strategies for improved revenue.
-* Customer satisfaction vs operational efficiency analysis.
+* Identifying bottlenecks and delay-prone routes
+* Optimising pricing strategies for improved revenue
+* Customer satisfaction vs operational efficiency analysis
 
 **Business Questions Answered**:
 
@@ -106,9 +164,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 * Which routes need attention for punctuality improvements?
 * What’s the relationship between ticket pricing and revenue?
 
- **Dashboard Screenshot**: [View](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
- **README**: [View](NatRail_ReadMe.md)
- **Dataset**: [Kaggle UK Rail Data](https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides)
+**Dashboard Screenshot**: [View](National%20Rail%20UK%20Train%20Ticket%20Data.pdf)
+**README**: [View](NatRail_ReadMe.md)
+**Dataset**: [Kaggle UK Rail Data](https://www.kaggle.com/datasets/nelgiriyewithana/uk-train-rides)
 
 ---
 
@@ -129,9 +187,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Business Insights**:
 
-* Identifying top-performing LEGO themes and sets.
-* Correlating pricing with set complexity for optimal sales strategy.
-* Analyzing release trends for future product planning.
+* Identifying top-performing LEGO themes and sets
+* Correlating pricing with set complexity for optimal sales strategy
+* Analyzing release trends for future product planning
 
 **Business Questions Answered**:
 
@@ -139,8 +197,8 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 * How do pricing and complexity correlate with customer preferences?
 * What are the trends in LEGO set releases?
 
- **Dashboard Screenshot**: [View](lego%20set%20themes%20dash.pdf)
- **README**: [View](Lego_set_themes.md)
+**Dashboard Screenshot**: [View](lego%20set%20themes%20dash.pdf)
+**README**: [View](Lego_set_themes.md)
 **Dataset**: [Kaggle LEGO Data](https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database)
 
 ---
@@ -162,9 +220,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Business Insights**:
 
-* Key drivers of passenger satisfaction.
-* Delay impact on customer scores.
-* Airline-level performance benchmarking.
+* Key drivers of passenger satisfaction
+* Delay impact on customer scores
+* Airline-level performance benchmarking
 
 **Business Questions Answered**:
 
@@ -172,9 +230,9 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 * How do delays affect passenger satisfaction?
 * What operational factors contribute to poor customer ratings?
 
- **Dashboard Screenshot**: [View](Airline_MOCK.pdf)
- **README**: [View](airline_readme.md)
- **Dataset**: [Kaggle Airline Data](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+**Dashboard Screenshot**: [View](Airline_MOCK.pdf)
+**README**: [View](airline_readme.md)
+**Dataset**: [Kaggle Airline Data](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
 ---
 
@@ -195,20 +253,19 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Business Insights**:
 
-* Identifying high-risk borrowers and segments.
-* Understanding loan performance trends over time.
-* Optimizing risk management strategies.
+* Identifying high-risk borrowers and segments
+* Understanding loan performance trends over time
+* Optimizing risk management strategies
 
 **Business Questions Answered**:
 
-*Which borrower segments are most likely to default?
-
+* Which borrower segments are most likely to default?
 * What is the overall risk exposure of the loan portfolio?
 * How does loan performance vary over time?
 
- **Dashboard Screenshot**: [View](loan%20dash%20pbi.pdf)
- **README**: [View](Loan_Analytics_README.md)
- **Dataset**: [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+**Dashboard Screenshot**: [View](loan%20dash%20pbi.pdf)
+**README**: [View](Loan_Analytics_README.md)
+**Dataset**: [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 
 ---
 
@@ -223,15 +280,15 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 
 **Key Measures / DAX**:
 
-* **Sales Performance by Product**: Breakdown of sales by product category.
-* **Seasonal Sales Trends**: Analysis of sales trends during specific times of the year.
-* **Customer Segmentation**: Categorization of customers based on purchasing behavior.
+* **Sales Performance by Product**: Breakdown of sales by product category
+* **Seasonal Sales Trends**: Analysis of sales trends during specific times of the year
+* **Customer Segmentation**: Categorization of customers based on purchasing behavior
 
 **Business Insights**:
 
-* Seasonal patterns in sales.
-* High-margin vs high-volume products.
-* Identifying key customer segments.
+* Seasonal patterns in sales
+* High-margin vs high-volume products
+* Identifying key customer segments
 
 **Business Questions Answered**:
 
@@ -239,48 +296,47 @@ Each dashboard includes dataset badges, a short business context, key insights, 
 * How do seasonal trends affect sales performance?
 * Which customer segments are driving the highest revenue?
 
- **Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
- **README**: [View](Ordrs_PBI_Reademe.md)
- **Dataset**: [Kaggle Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+**Dashboard Screenshot**: [View](Ordrs_PBI_Reademe.md)
+**README**: [View](Ordrs_PBI_Reademe.md)
+**Dataset**: [Kaggle Superstore Data](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 ---
 
 ## AdventureWorks
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Retail-0288D1?style=flat)
 ![Dataset](https://img.shields.io/badge/Dataset-AdventureWorks-blue?style=flat)
 ![Analytics](https://img.shields.io/badge/Analytics-Sales%20Performance-0288D1?style=flat)
 
-## Focus
-End‑to‑end commercial analytics across Internet and Reseller sales, covering products, customers, and geographic territories using a scalable semantic layer.
+**Focus**: End‑to‑end commercial analytics across Internet and Reseller sales, covering products, customers, and geographic territories using a scalable semantic layer.
 
-## **Key Measures / DAX**
-Total Sales & Sales YTD
+**Key Measures / DAX**:
 
-Year‑over‑Year Growth %
+* Total Sales & Sales YTD
+* Year‑over‑Year Growth %
+* Average Order Value (AOV)
+* Customer Lifetime Value
+* Territory Contribution %
 
-Average Order Value (AOV)
+**Business Questions Answered**:
 
-Customer Lifetime Value
+* Which channels and territories drive growth?
+* Which products and customers generate the most value?
 
-Territory Contribution %
+**Datasets**:
+[https://learn.microsoft.com/en-us/dax/dax-sample-model](https://learn.microsoft.com/en-us/dax/dax-sample-model)
+[https://github.com/richhuwtaylor/adventure-works](https://github.com/richhuwtaylor/adventure-works)
 
-## Business Questions Answered
-Which channels and territories drive growth
+**Project README:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md](https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md)
 
-Which products and customers generate the most value
-
-## Datasets
-https://learn.microsoft.com/en-us/dax/dax-sample-model https://github.com/richhuwtaylor/adventure-works
-
-**Project README:**  
-https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md
-
-**Project Screnshots:**  
-https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf
+**Project Screenshots:**
+[https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf](https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf)
 
 ---
-##  Banking
+
+## Banking
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![Domain](https://img.shields.io/badge/Domain-Banking%20%26%20Financial%20Services-1565C0?style=flat)
@@ -288,23 +344,22 @@ https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf
 ![Dataset](https://img.shields.io/badge/Dataset-Maven%20Analytics-lightgrey?style=flat)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success?style=flat)
 
-**Focus:**
-End-to-end banking analytics using Power BI, analysing **customer churn, transactions, loyalty programmes, and marketing campaigns** through a scalable semantic layer.
+**Focus**: End-to-end banking analytics using Power BI, analysing **customer churn, transactions, loyalty programmes, and marketing campaigns** through a scalable semantic layer.
 
-**Key Insights:**
+**Key Insights**:
 
 * A small customer segment drives a disproportionate share of revenue
 * Premium programmes significantly outperform core tiers
 * Campaign ROI varies widely by channel and campaign type
 * Inactive customers exhibit materially higher churn risk
 
-**Skills Demonstrated:**
+**Skills Demonstrated**:
 Power BI · DAX · Star Schema Modelling · Time Intelligence · Commercial Analytics · Stakeholder Reporting
 
- **Project README:**
-[https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md](https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md)
+**Project README:**
+[Banking Dashboard README](https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md)
 
- **Dataset:**
+**Dataset**:
 Maven Analytics – Bank Customer Churn
 [https://mavenanalytics.io/data-playground/bank-customer-churn](https://mavenanalytics.io/data-playground/bank-customer-churn)
 
@@ -329,8 +384,5 @@ These dashboards are designed to answer real-world business questions such as:
 * How does customer experience impact revenue and retention?
 * Which segments represent the highest risk or opportunity?
 
----
+```
 
-## **License**
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute with attribution.
