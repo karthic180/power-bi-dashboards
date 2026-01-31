@@ -3,7 +3,6 @@
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat\&logo=powerbi\&logoColor=black)
 ![DAX](https://img.shields.io/badge/Language-DAX-blue?style=flat)
 ![SQL](https://img.shields.io/badge/Data-SQL-lightgrey?style=flat)
-![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ---
