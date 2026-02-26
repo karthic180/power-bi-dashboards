@@ -1,107 +1,109 @@
-# Global Video Game Market Analysis — Power BI Dashboard
+# **Global Video Game Market Analysis — Power BI Dashboard**
 
-## Project Overview
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Data Source](https://img.shields.io/badge/Dataset-Kaggle-yellow)
 
-This project presents a detailed analysis of the global video game market using Power BI. The data visualizations and KPIs offer insights into key metrics such as sales trends, platform performance, publisher success, genre preferences, and regional differences in gaming. The dataset used is sourced from the **Kaggle Video Game Sales with Ratings dataset**.
+## **Project Overview**
+
+This project presents a detailed analysis of the **global video game market** using **Power BI**. The dashboard provides insightful visualizations and KPIs that analyze key metrics such as sales trends, platform performance, publisher success, genre preferences, and regional differences in gaming. The dataset used is sourced from the **Kaggle Video Game Sales with Ratings dataset**.
 
 ---
 
-## Dataset Used
+## **Dataset Used**
 
 The dataset used in this project is the **Video Game Sales with Ratings** dataset available on Kaggle. It contains detailed information about video game sales across different platforms, regions, genres, publishers, and ratings.
 
 You can download the dataset from the following link:
 
-* **Video Game Sales with Ratings Dataset on Kaggle**: [https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+* **[Video Game Sales with Ratings Dataset on Kaggle](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)**
 
-### Key Columns in the Dataset:
+### **Key Columns in the Dataset**:
 
-* **Name**: Name of the game
-* **Platform**: Platform on which the game was released (e.g., PlayStation, Xbox)
-* **Year_of_Release**: Year the game was released
-* **Genre**: Game genre (e.g., Action, Adventure, RPG)
-* **Publisher**: Publisher of the game
-* **NA_Sales**: Sales in North America (in millions)
-* **EU_Sales**: Sales in Europe (in millions)
-* **JP_Sales**: Sales in Japan (in millions)
-* **Global_Sales**: Total sales across all regions (in millions)
-* **User_Score**: User rating of the game
-* **Critic_Score**: Critic rating of the game
+* **Name**: Name of the game.
+* **Platform**: Platform on which the game was released (e.g., PlayStation, Xbox).
+* **Year_of_Release**: Year the game was released.
+* **Genre**: Game genre (e.g., Action, Adventure, RPG).
+* **Publisher**: Publisher of the game.
+* **NA_Sales**: Sales in North America (in millions).
+* **EU_Sales**: Sales in Europe (in millions).
+* **JP_Sales**: Sales in Japan (in millions).
+* **Global_Sales**: Total sales across all regions (in millions).
+* **User_Score**: User rating of the game.
+* **Critic_Score**: Critic rating of the game.
 
 ---
 
-## Installation Instructions
+## **Installation Instructions**
 
-1. **Download Power BI Desktop**: [Power BI Download](https://powerbi.microsoft.com/)
+1. **Download Power BI Desktop**: [Download Power BI](https://powerbi.microsoft.com/).
 2. **Download Dataset**: Download the dataset from Kaggle: [Video Game Sales with Ratings Dataset](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings).
 3. **Load Data**: Open Power BI Desktop and import the dataset.
 
-   * **Home → Get Data → Excel** (if dataset is in .xlsx) or **CSV** (for CSV format).
-4. **Refresh Data**: Make sure the dataset loads properly and is cleaned in the **Data** view.
+   * **Home → Get Data → Excel** (if dataset is in `.xlsx`) or **CSV** (for `.csv` format).
+4. **Refresh Data**: Ensure that the dataset loads properly and is cleaned in the **Data** view.
 
 ---
 
-## Key Pages and Insights
+## **Key Pages and Insights**
 
-### 1. KPI Summary (Executive Overview)
+### 1. **KPI Summary (Executive Overview)**
 
 Provides an overall snapshot of global video game sales, the number of active platforms and publishers, and regional sales distribution.
 
-### 2. Platform Dominance
+### 2. **Platform Dominance**
 
-Shows which platforms dominate global sales and trends over time.
+Shows which platforms dominate global sales and their trends over time.
 
-### 3. Console Lifecycle
+### 3. **Console Lifecycle**
 
-Tracks how long platforms remain successful and their peak sales years.
+Tracks how long platforms remain successful and identifies their peak sales years.
 
-### 4. Genre Trends
+### 4. **Genre Trends**
 
 Analyzes the rise and fall of game genres and how they impact sales.
 
-### 5. Publisher Performance
+### 5. **Publisher Performance**
 
-Compares publishers’ performance across regions.
+Compares publishers’ performance across different regions.
 
-### 6. Regional Preferences
+### 6. **Regional Preferences**
 
-Explores how gaming preferences vary across different regions.
+Explores how gaming preferences vary across different regions (e.g., North America, Europe, Japan).
 
 ---
 
-## DAX Measures Used
+## **DAX Measures Used**
 
 Here are the DAX measures used in the Power BI project:
 
-### 1. Total Sales
+### 1. **Total Sales**:
 
 ```DAX
 Total Sales = 
 SUM ( vgsales[Global_Sales] )
 ```
 
-### 2. Active Platforms
+### 2. **Active Platforms**:
 
 ```DAX
 Active Platforms = 
 DISTINCTCOUNT ( vgsales[Platform] )
 ```
 
-### 3. Active Publishers
+### 3. **Active Publishers**:
 
 ```DAX
 Active Publishers = 
 DISTINCTCOUNT ( vgsales[Publisher] )
 ```
 
-### 4. Active Genres
+### 4. **Active Genres**:
 
 ```DAX
 Active Genres = 
 DISTINCTCOUNT ( vgsales[Genre] )
 ```
 
-### 5. Platform Market Share %
+### 5. **Platform Market Share %**:
 
 ```DAX
 Platform Market Share % = 
@@ -111,14 +113,14 @@ DIVIDE (
 )
 ```
 
-### 6. Platform Launch Year
+### 6. **Platform Launch Year**:
 
 ```DAX
 Platform Launch Year = 
 MIN ( vgsales[Year_of_Release] )
 ```
 
-### 7. Platform Peak Sales
+### 7. **Platform Peak Sales**:
 
 ```DAX
 Platform Peak Sales = 
@@ -128,7 +130,7 @@ MAXX (
 )
 ```
 
-### 8. Platform Peak Year
+### 8. **Platform Peak Year**:
 
 ```DAX
 Platform Peak Year = 
@@ -141,7 +143,7 @@ RETURN
 MAXX ( TOPN ( 1, T, [Sales], DESC ), vgsales[Year_of_Release] )
 ```
 
-### 9. YoY Growth %
+### 9. **YoY Growth %**:
 
 ```DAX
 YoY Growth % = 
@@ -156,56 +158,76 @@ DIVIDE ( [Total Sales] - PrevYear, PrevYear )
 
 ---
 
-## Visuals Used in the Dashboard
+## **Visuals Used in the Dashboard**
 
-### Page 1: KPI Summary
+### **Page 1: KPI Summary**
 
 * **KPI Cards**:
 
   * Total Sales
   * Active Platforms
   * Active Publishers
-* **Line Chart**: Sales trend over years
-* **Donut Chart**: Regional sales share (NA, EU, JP)
+* **Line Chart**: Sales trend over years.
+* **Donut Chart**: Regional sales share (NA, EU, JP).
 
-### Page 2: Platform Dominance
+### **Page 2: Platform Dominance**
 
-* **Bar Chart**: Platform vs. Total Sales
-* **Line Chart**: Platform sales trend over time
-* **Platform Market Share** (optional table)
+* **Bar Chart**: Platform vs. Total Sales.
+* **Line Chart**: Platform sales trend over time.
+* **Platform Market Share** (optional table).
 
-### Page 3: Console Lifecycle
+### **Page 3: Console Lifecycle**
 
-* **Slicer**: Platform selection
-* **Line Chart**: Sales trend per platform
-* **KPIs**: Platform Launch Year, Peak Sales, Peak Year
+* **Slicer**: Platform selection.
+* **Line Chart**: Sales trend per platform.
+* **KPIs**: Platform Launch Year, Peak Sales, Peak Year.
 
-### Page 4: Genre Trends
+### **Page 4: Genre Trends**
 
-* **Area Chart**: Genre sales trend over time
-* **Bar Chart**: Year-on-Year growth by genre
+* **Area Chart**: Genre sales trend over time.
+* **Bar Chart**: Year-on-Year growth by genre.
 
-### Page 5: Publisher Performance
+### **Page 5: Publisher Performance**
 
-* **Bar Chart**: Total sales by publisher
-* **Matrix**: Sales by publisher across regions (NA, EU, JP)
+* **Bar Chart**: Total sales by publisher.
+* **Matrix**: Sales by publisher across regions (NA, EU, JP).
 
-### Page 6: Regional Preferences
+### **Page 6: Regional Preferences**
 
-* **Stacked Bar Chart**: Genre sales by region
-* **Heatmap**: Sales by platform across regions (conditional formatting)
-
----
-
-## Conclusion
-
-This dashboard provides actionable insights into the video game industry, offering a deep dive into platform, publisher, and genre trends. By understanding regional preferences and tracking lifecycle trends, businesses can optimize their strategies for game releases and marketing.
+* **Stacked Bar Chart**: Genre sales by region.
+* **Heatmap**: Sales by platform across regions (with conditional formatting).
 
 ---
 
-### Future Improvements
+## **Conclusion**
+
+This Power BI dashboard provides actionable insights into the video game industry, offering a deep dive into platform, publisher, and genre trends. By understanding regional preferences and tracking lifecycle trends, businesses can optimize their strategies for game releases and marketing.
+
+---
+
+## **Future Improvements**
 
 * Add additional data on **user reviews** and **ratings** to further enhance the analysis.
 * **Forecast sales trends** based on historical data to predict future market performance.
 
 ---
+
+### **Badges Explained:**
+
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+**Build Status**: Indicates that the latest version of the project passes all automated tests and is in good shape for deployment.
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+**License**: This project is licensed under the MIT License, which is open source and free to use.
+
+![Data Source](https://img.shields.io/badge/Dataset-Kaggle-yellow)
+**Data Source**: The dataset used for this project is from **Kaggle**, specifically the **Video Game Sales with Ratings** dataset.
+
+---
+
+### **Additional Resources:**
+
+* **Power BI**: [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+* **Kaggle Dataset**: [Video Game Sales on Kaggle](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+* **Microsoft Fabric**: [Microsoft Fabric Documentation](https://learn.microsoft.com/en-us/fabric/)
+
