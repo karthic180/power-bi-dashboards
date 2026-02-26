@@ -7,22 +7,17 @@
 ![Skills](https://img.shields.io/badge/Skills-DAX%20%7C%20Star%20Schema%20%7C%20Time%20Intelligence-black?style=flat)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success?style=flat)
 
----
+## Overview:
+This dashboard provides insights into customer behavior, churn risk, and banking product performance. It helps analyze customer retention, default rates, and portfolio risk.
 
-##  Overview
+## Dataset:
+- **Source**: Maven Analytics – Bank Customer Churn dataset
+- **Key Columns**: CustomerID, Age, Product, TransactionAmount, DefaultStatus
 
-This Power BI project delivers an **end-to-end banking analytics solution** focused on **customer churn, rewards programme performance, and campaign effectiveness**.
-
-Using a **scalable semantic layer**, the dashboard enables stakeholders to:
-
-* Monitor customer engagement and churn risk
-* Evaluate loyalty programme performance
-* Measure campaign reach, conversion, and impact
-* Analyse spend behaviour across customers, merchants, and regions
-
-The solution mirrors **real-world banking and rewards analytics** used by commercial, marketing, and CRM teams.
-
----
+## Key Metrics:
+- **Default Rate by Borrower Segment**:
+  ```DAX
+  Default Rate = CALCULATE(COUNTROWS(CustomerData), CustomerData[DefaultStatus] = "Default")
 ##  Screenshots
 https://github.com/karthic180/power-bi-dashboards/blob/main/banking.pdf
 ## PBI
