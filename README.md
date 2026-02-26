@@ -11,7 +11,6 @@
 
 1. [Overview](#overview)
 2. [Dashboards Overview](#dashboards-overview)
-   * [Video Game Sales – Microsoft Fabric](#video-game-sales--microsoft-fabric)
    * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
    * [UK Rail Performance](#uk-rail-dashboard)
    * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
