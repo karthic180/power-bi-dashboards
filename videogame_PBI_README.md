@@ -212,19 +212,6 @@ This Power BI dashboard provides actionable insights into the video game industr
 
 ---
 
-### **Badges Explained:**
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
-**Build Status**: Indicates that the latest version of the project passes all automated tests and is in good shape for deployment.
-
-![License](https://img.shields.io/badge/License-MIT-blue)
-**License**: This project is licensed under the MIT License, which is open source and free to use.
-
-![Data Source](https://img.shields.io/badge/Dataset-Kaggle-yellow)
-**Data Source**: The dataset used for this project is from **Kaggle**, specifically the **Video Game Sales with Ratings** dataset.
-
----
-
 ### **Additional Resources:**
 
 * **Power BI**: [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
