@@ -383,6 +383,3 @@ These dashboards are designed to answer real-world business questions such as:
 * Where are operational inefficiencies occurring?
 * How does customer experience impact revenue and retention?
 * Which segments represent the highest risk or opportunity?
-
-```
-
