@@ -11,17 +11,18 @@
 
 1. [Overview](#overview)
 2. [Dashboards Overview](#dashboards-overview)
-   * [Global Video Game Market Analysis](#global-video-game-market-analysis-dashboard)
-   * [UK Rail Performance](#uk-rail-dashboard)
-   * [LEGO Sets & Themes](#lego-sets--themes-dashboard)
-   * [Airlines Customer Experience](#airlines-dashboard)
-   * [Loan Analytics](#loan-analytics-dashboard)
-   * [Orders & Sales Performance](#orders--sales-dashboard)
+   * [Video Game Sales – Microsoft Fabric](#video-game-sales--microsoft-fabric)
+   * [Global Video Game Market Analysis Dashboard](#global-video-game-market-analysis-dashboard)
+   * [UK Rail Dashboard](#uk-rail-dashboard)
+   * [LEGO Sets & Themes Dashboard](#lego-sets--themes-dashboard)
+   * [Airlines Dashboard](#airlines-dashboard)
+   * [Loan Analytics Dashboard](#loan-analytics-dashboard)
+   * [Orders & Sales Dashboard](#orders--sales-dashboard)
    * [AdventureWorks](#adventureworks)
    * [Banking](#banking)
+   * [Retail Analytics Project](#retail-analytics-project)
 3. [Key Measures / DAX](#key-measures--dax)
 4. [Business Insights](#business-insights)
-
 ---
 
 ## **Overview**
@@ -382,3 +383,40 @@ These dashboards are designed to answer real-world business questions such as:
 * Where are operational inefficiencies occurring?
 * How does customer experience impact revenue and retention?
 * Which segments represent the highest risk or opportunity?
+
+---
+
+## Retail Analytics Project
+
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Domain](https://img.shields.io/badge/Domain-Retail-0288D1?style=flat)
+![Model](https://img.shields.io/badge/Model-Star%20Schema-4CAF50?style=flat)
+![Analytics](https://img.shields.io/badge/Analytics-Forecasting%20%26%20KPI-D32F2F?style=flat)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success?style=flat)
+
+**Focus**: End-to-end retail analytics solution using synthetic data, dimensional modelling, advanced DAX, and executive dashboard design.
+
+**Project Highlights**:
+
+* Star schema data model (Fact + Dimensions)
+* Python-based synthetic data generator
+* Time intelligence (YoY Growth, Running Totals)
+* Top N product analysis
+* Profitability and margin KPIs
+* Sales forecasting
+
+**Business Questions Answered**:
+
+* Which products and categories drive the most revenue?
+* What is the overall profit margin trend?
+* How does performance change year-over-year?
+* Which customer segments contribute most to sales?
+
+**Skills Demonstrated**:
+Power BI · DAX · Dimensional Modelling · Python · Forecasting · KPI Design · Data Storytelling · Git
+
+**Project Repository**:  
+https://github.com/karthic180/retail-analytics-project
+
+**Report (PDF)**:  
+https://github.com/karthic180/retail-analytics-project/blob/main/reports/retail-analytics-project.pdf
