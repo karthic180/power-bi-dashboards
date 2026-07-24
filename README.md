@@ -57,21 +57,6 @@ The objective of each dashboard is not only to visualise data, but to answer rea
 ---
 
 # Dashboard Portfolio
-
-| Project | Domain | Tools |
-|---|---|---|
-| Video Game Sales - Microsoft Fabric | Gaming | Power BI, Fabric, DAX |
-| UK Rail Dashboard | Transportation | Power BI, DAX |
-| LEGO Sets & Themes | Consumer Products | Power BI |
-| Airlines Dashboard | Aviation | Power BI |
-| Loan Analytics | Finance | Power BI, Risk Analytics |
-| AdventureWorks | Retail | Power BI, SQL |
-| Banking Analytics | Banking | Power BI, DAX |
-| Retail Analytics | Retail | Power BI, Python |
-| IBM HR Analytics | Human Resources | Power BI |
-
----
-
 # Project Links
 
 ## Video Game Sales - Microsoft Fabric
