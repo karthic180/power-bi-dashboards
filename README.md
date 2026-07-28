@@ -58,23 +58,22 @@ The objective of each dashboard is not only to visualise data, but to answer rea
 
 # Dashboard Portfolio & Projects
 
-## 💳 Financial Transactions & Merchant Analytics Dashboard
+##  Financial Transactions & Merchant Analytics Dashboard
 End-to-end business intelligence solution analyzing 13 million financial records totaling $571.84M in volume across global merchant networks, customer demographics, and card tiers[cite: 7].
 
-📊 **Dashboard:** [View Source File](Dashboard/Financial%20Dashboard.pbix)  
-📄 **Documentation:** [Project README](https://github.com/karthic180/Financial-transactions-PowerBI/blob/main/README.md)  
-🌐 **Repository:** [GitHub Repository](https://github.com/karthic180/Financial-transactions-PowerBI)
+ [Project README](https://github.com/karthic180/Financial-transactions-PowerBI/blob/main/README.md)  
+ [GitHub Repository](https://github.com/karthic180/Financial-transactions-PowerBI)
 
 ---
 
-## 🎮 Video Game Sales - Microsoft Fabric
+## Video Game Sales - Microsoft Fabric
 End-to-end analytics solution using:
 - Microsoft Fabric Dataflow Gen2
 - Lakehouse
 - Power BI Semantic Model
 - DAX Measures
 
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_BI.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_PBI_README.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/videogame_PBI_README.md)
 
 ---
 
@@ -85,61 +84,59 @@ Operational analytics dashboard analysing:
 - Delays
 - Refunds
 - Customer impact
-
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/National%20Rail%20UK%20Train%20Ticket%20Data.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/NatRail_ReadMe.md)
 
 ---
 
-## 🧱 LEGO Sets & Themes Dashboard
+##  LEGO Sets & Themes Dashboard
 Product analytics dashboard covering:
 - Theme popularity
 - Product portfolio trends
 - Set complexity
 - Release analysis
-
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/lego%20set%20themes%20dash.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/Lego_set_themes.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/Lego_set_themes.md)
 
 ---
 
-## ✈️ Airlines Dashboard
+##  Airlines Dashboard
 Customer experience and operational performance analysis covering passenger satisfaction, flight delays, airline benchmarking, and service performance.
 
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/Airline_MOCK.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)
+📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/airline_readme.md)
 
 ---
 
-## 💰 Loan Analytics Dashboard
+## Loan Analytics Dashboard
 Financial risk analytics solution covering default analysis, borrower segmentation, portfolio risk, and loan performance.
 
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/loan%20dash%20pbi.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Analytics_README.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/Loan_Analytics_README.md)
 
 ---
 
-## 🛒 AdventureWorks
+##  AdventureWorks
 Commercial analytics solution analysing sales performance, customers, products, territories, and growth trends.
 
-📊 [View Dashboard](https://github.com/karthic180/power-bi-dashboards/blob/main/adveantureworks.pdf) | 📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/adventureworksPBI_ReadMe.md)
 
 ---
 
-## 🏦 Banking Analytics
+##  Banking Analytics
 Customer analytics solution focused on customer churn, transactions, loyalty programmes, and marketing campaigns.
 
-📄 [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md)
+ [Project README](https://github.com/karthic180/power-bi-dashboards/blob/main/bankingPBI_Readme.md)
 
 ---
 
-## 🛍️ Retail Analytics Project
+##  Retail Analytics Project
 End-to-end retail analytics platform using synthetic data generation, star schema modelling, advanced DAX, forecasting, and profitability analysis.
 
-📊 [View Report](https://github.com/karthic180/retail-analytics-project/blob/main/reports/retail-analytics-project.pdf) | 💻 [GitHub Repository](https://github.com/karthic180/retail-analytics-project)
+ [GitHub Repository](https://github.com/karthic180/retail-analytics-project)
 
 ---
 
-## 👥 IBM HR Analytics
+## IBM HR Analytics
 Human resources analytics dashboard covering employee trends, attrition analysis, and workforce insights.
 
-📄 [HR Analytics Power BI](https://github.com/karthic180/HR-Analytics-PowerBI)
+ [HR Analytics Power BI](https://github.com/karthic180/HR-Analytics-PowerBI)
 
 ---
 
